@@ -4,7 +4,7 @@
 
 ## Initial Information
 
-*   **New Machine IP:** 10.129.69.204 (Previous: 10.129.18.222)
+*   **New Machine IP:** 10.129.62.158 (Previous: 10.129.18.222, then 10.129.69.204)
 *   **Provided Credentials:** levi.james / KingofAkron2025!
 
 ## Enumeration
@@ -218,7 +218,7 @@ Result: Success! The UPN format worked. We retrieved basic domain information, i
 *   Account lockout: `lockoutThreshold: 0` (No lockout policy!)
 
 Now, let's enumerate domain users.
-Command: `ldapsearch -x -H ldap://10.129.69.204 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'CN=Users,DC=PUPPY,DC=HTB' '(objectClass=user)' sAMAccountName displayName description memberOf userAccountControl > /home/parallels/Desktop/HTB/Season_8_Puppy_ldap_users.txt`
+Command: `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'CN=Users,DC=PUPPY,DC=HTB' '(objectClass=user)' sAMAccountName displayName description memberOf userAccountControl > /home/parallels/Desktop/HTB/Season_8_Puppy_ldap_users.txt`
 
 Result: User information saved to `Season_8_Puppy_ldap_users.txt`. Analysis reveals:
 *   **Standard Users:** `Administrator` (enabled, highly privileged), `Guest` (disabled), `krbtgt` (disabled).
@@ -241,7 +241,7 @@ Result: User information saved to `Season_8_Puppy_ldap_users.txt`. Analysis reve
 2.  Enumerate domain groups, particularly the `DEVELOPERS` group.
 
 Locating `levi.james` in the domain:
-Command: `ldapsearch -x -H ldap://10.129.69.204 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'DC=PUPPY,DC=HTB' '(sAMAccountName=levi.james)' sAMAccountName displayName description memberOf userAccountControl dn`
+Command: `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'DC=PUPPY,DC=HTB' '(sAMAccountName=levi.james)' sAMAccountName displayName description memberOf userAccountControl dn`
 
 Result: Successfully found `levi.james`:
 *   **DN:** `CN=Levi B. James,OU=MANPOWER,DC=PUPPY,DC=HTB` (Located in the `MANPOWER` OU).
@@ -252,7 +252,7 @@ Result: Successfully found `levi.james`:
 **Explanation:** This confirms `levi.james`'s location and primary group. The `MANPOWER` OU and `HR` group give us more context about this user account.
 
 Next, let's enumerate domain groups to understand their memberships and potential privileges, focusing on `DEVELOPERS` and `HR`.
-Command: `ldapsearch -x -H ldap://10.129.69.204 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'DC=PUPPY,DC=HTB' '(objectClass=group)' sAMAccountName description member memberOf > /home/parallels/Desktop/HTB/Season_8_Puppy_ldap_groups.txt`
+Command: `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'DC=PUPPY,DC=HTB' '(objectClass=group)' sAMAccountName description member memberOf > /home/parallels/Desktop/HTB/Season_8_Puppy_ldap_groups.txt`
 
 Result: Group information saved to `Season_8_Puppy_ldap_groups.txt`. Key group details extracted:
 
@@ -280,7 +280,7 @@ Result: Group information saved to `Season_8_Puppy_ldap_groups.txt`. Key group d
 Next, we need to gather details (especially `userAccountControl` status) for these new users.
 
 Details for `Anthony J. Edwards`:
-Command: `ldapsearch -x -H ldap://10.129.69.204 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'CN=Anthony J. Edwards,DC=PUPPY,DC=HTB' '(objectClass=user)' sAMAccountName displayName userAccountControl description memberOf`
+Command: `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'CN=Anthony J. Edwards,DC=PUPPY,DC=HTB' '(objectClass=user)' sAMAccountName displayName userAccountControl description memberOf`
 
 Result:
 *   **`sAMAccountName`**: `ant.edwards`
@@ -289,7 +289,7 @@ Result:
 *   **Explanation**: `ant.edwards` is an enabled user in both `DEVELOPERS` and the newly discovered `SENIOR DEVS` group. This makes `ant.edwards` and the `SENIOR DEVS` group high-priority targets for further investigation.
 
 Details for `Stephen W. Cooper` (in `OU=PUPPY ADMINS`):
-Command: `ldapsearch -x -H ldap://10.129.69.204 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'OU=PUPPY ADMINS,DC=PUPPY,DC=HTB' '(&(objectClass=user)(cn=Stephen W. Cooper))' sAMAccountName displayName userAccountControl description memberOf`
+Command: `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'OU=PUPPY ADMINS,DC=PUPPY,DC=HTB' '(&(objectClass=user)(cn=Stephen W. Cooper))' sAMAccountName displayName userAccountControl description memberOf`
 
 Result:
 *   **`sAMAccountName`**: `steph.cooper`
@@ -298,7 +298,7 @@ Result:
 *   **Explanation**: `steph.cooper` is an enabled user in the `PUPPY ADMINS` OU and has WinRM access. This account is a potential target if credentials can be found.
 
 Details for `Stephen A. Cooper_adm` (in `OU=PUPPY ADMINS`):
-Command: `ldapsearch -x -H ldap://10.129.69.204 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'OU=PUPPY ADMINS,DC=PUPPY,DC=HTB' '(&(objectClass=user)(cn=Stephen A. Cooper_adm))' sAMAccountName displayName userAccountControl description memberOf`
+Command: `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'OU=PUPPY ADMINS,DC=PUPPY,DC=HTB' '(&(objectClass=user)(cn=Stephen A. Cooper_adm))' sAMAccountName displayName userAccountControl description memberOf`
 
 Result:
 *   **`sAMAccountName`**: `steph.cooper_adm`
@@ -316,7 +316,7 @@ Result:
 Further analysis of interesting groups like `SENIOR DEVS` and the `PUPPY ADMINS` OU is needed.
 
 Investigating `CN=SENIOR DEVS,CN=Builtin,DC=PUPPY,DC=HTB` group:
-Command: `ldapsearch -x -H ldap://10.129.69.204 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'CN=SENIOR DEVS,CN=Builtin,DC=PUPPY,DC=HTB' '(objectClass=group)' sAMAccountName description member memberOf`
+Command: `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'CN=SENIOR DEVS,CN=Builtin,DC=PUPPY,DC=HTB' '(objectClass=group)' sAMAccountName description member memberOf`
 
 Result:
 *   **`sAMAccountName`**: `SENIOR DEVS`
@@ -332,17 +332,17 @@ Further analysis of interesting groups like `SENIOR DEVS` and the `PUPPY ADMINS`
 
 #### AS-REP Roasting
 Attempted to find users without Kerberos pre-authentication using `GetNPUsers.py`.
-Command: `impacket-GetNPUsers PUPPY.HTB/levi.james:KingofAkron2025! -request -format hashcat -outputfile /home/parallels/Desktop/HTB/Season_8_Puppy_asrep_hashes.txt -dc-ip 10.129.69.204`
+Command: `impacket-GetNPUsers PUPPY.HTB/levi.james:KingofAkron2025! -request -format hashcat -outputfile /home/parallels/Desktop/HTB/Season_8_Puppy_asrep_hashes.txt -dc-ip 10.129.62.158`
 Result: `No entries found!`. No users are vulnerable to AS-REP roasting.
 
 #### Kerberoasting (User Accounts)
 Attempted to find service accounts with crackable TGS tickets using `GetUserSPNs.py`.
-Command: `impacket-GetUserSPNs PUPPY.HTB/levi.james:KingofAkron2025! -request -outputfile /home/parallels/Desktop/HTB/Season_8_Puppy_kerberoast_hashes.txt -dc-ip 10.129.69.204`
+Command: `impacket-GetUserSPNs PUPPY.HTB/levi.james:KingofAkron2025! -request -outputfile /home/parallels/Desktop/HTB/Season_8_Puppy_kerberoast_hashes.txt -dc-ip 10.129.62.158`
 Result: `No entries found!`. No user accounts with SPNs suitable for Kerberoasting were found with this tool.
 
 #### Full SPN Listing via LDAP
 To get a comprehensive list of all SPNs, a direct LDAP query was performed.
-Command: `ldapsearch -x -H ldap://10.129.69.204 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'DC=PUPPY,DC=HTB' '(!(userAccountControl:1.2.840.113556.1.4.803:=2))' servicePrincipalName sAMAccountName > /home/parallels/Desktop/HTB/Season_8_Puppy_ldap_spns.txt`
+Command: `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'DC=PUPPY,DC=HTB' '(!(userAccountControl:1.2.840.113556.1.4.803:=2))' servicePrincipalName sAMAccountName > /home/parallels/Desktop/HTB/Season_8_Puppy_ldap_spns.txt`
 Result: The output (1132 lines) was saved to `Season_8_Puppy_ldap_spns.txt`.
 Analysis of the file showed that **no user accounts have SPNs configured**. The SPNs identified were standard SPNs associated with the Domain Controller computer account (`DC$`), such as:
 *   `iSCSITarget/DC` and `iSCSITarget/DC.PUPPY.HTB`
@@ -356,18 +356,83 @@ Conclusion: Kerberoasting user accounts is not a viable attack path.
 
 ### Network File System (NFS) Enumeration (Port 2049)
 Nmap indicated port 2049 (NFS) is open. Attempting to list exported shares.
-Command: `showmount -e 10.129.69.204`
+Command: `showmount -e 10.129.62.158`
 Result: (Pending)
 
-Command: `showmount -e 10.129.69.204`
+Command: `showmount -e 10.129.62.158`
 Result: An empty export list was returned. No NFS shares are advertised.
 
 ### Active Directory ACL and Path Analysis with BloodHound
 
 To get a comprehensive understanding of permissions, group memberships, and potential attack paths within the Active Directory domain, BloodHound data was collected using the Python ingestor `bloodhound.py`.
 
-Command: `bloodhound-python -u 'levi.james@PUPPY.HTB' -p 'KingofAkron2025!' -ns 10.129.69.204 -d PUPPY.HTB -c All --zip`
+Command: `bloodhound-python -u 'levi.james@PUPPY.HTB' -p 'KingofAkron2025!' -ns 10.129.62.158 -d PUPPY.HTB -c All --zip`
 
 Result: The command executed successfully, falling back to NTLM authentication. It enumerated domain objects (1 computer, 10 users, 56 groups, 3 GPOs, 3 OUs, etc.) and saved the collected data into a zip file named similar to `YYYYMMDDHHMMSS_bloodhound.zip` (e.g., `20250520132456_bloodhound.zip`) in the current directory (`/home/parallels/Desktop/HTB`).
 
 **Next Step for User:** Import the generated `.zip` file into the BloodHound GUI application to analyze for privilege escalation paths. Look for paths from `levi.james` or the `HR` group to users like `jamie.williams`, `ant.edwards`, `steph.cooper`, `steph.cooper_adm`, or groups like `DEVELOPERS`, `SENIOR DEVS`, `Administrators`, or `Remote Management Users`. Specifically check for ACLs allowing password resets, group manipulations, or control over objects.
+
+## Attack Phase 1: Deeper Enumeration and Credential Hunting (as levi.james)
+
+Following the `attackPlan.md`, the first step is to perform a detailed LDAP query for more information on `jamie.williams` and `ant.edwards`.
+
+Command: `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'DC=PUPPY,DC=HTB' '(|(sAMAccountName=jamie.williams)(sAMAccountName=ant.edwards))' '*' > "/home/parallels/Desktop/HTB/Season 8/Puppy/LDAP/ldap_jamie_ant_details.txt"`
+
+Result: The command completed successfully. The output containing detailed attributes for `jamie.williams` and `ant.edwards` was saved to `LDAP/ldap_jamie_ant_details.txt`. This file should be reviewed for any sensitive information like comments, descriptions, or other attributes that might hint at passwords or insecure configurations.
+
+**Analysis of `ldap_jamie_ant_details.txt`:**
+*   **`ant.edwards`**:
+    *   `badPwdCount: 0`
+    *   No other immediately obvious password hints or sensitive information in attributes like `description` or `info`.
+*   **`jamie.williams`**:
+    *   `badPwdCount: 5`. This is a critical finding. It indicates multiple recent failed login attempts against this account.
+    *   No other immediately obvious password hints.
+
+**Implications for Attack Plan:**
+*   Password spraying `jamie.williams` is now considered **HIGHLY RISKY** due to the `badPwdCount` of 5. Even if the domain lockout policy is 0, this many failed attempts could trigger alerts or other security mechanisms.
+*   Password spraying `ant.edwards` remains a cautious option, as their `badPwdCount` is 0. If attempted, it must be done very slowly with highly targeted passwords.
+*   The BloodHound path leveraging `ant.edwards`'s membership in `SENIOR DEVS` (which has `GenericAll` over the disabled `adam.silver`, who in turn has WinRM access to the DC) becomes a more attractive primary option if a password for `ant.edwards` can be obtained or if another way to leverage these privileges is found.
+
+## Current Attack Strategy & Next Steps (as of last LDAP enumeration)
+
+Our current user `levi.james` (member of `HR`) has limited direct privileges. The primary goal is to escalate privileges or gain access as a user with more permissions, ideally leading to Domain Admin.
+
+**High-Priority Targets & Information:**
+
+*   **Users with Potential Access/Privileges:**
+    *   `steph.cooper_adm`: Member of `Administrators`. (Ultimate Goal)
+    *   `steph.cooper`: Member of `Remote Management Users` (WinRM access to DC).
+    *   `ant.edwards`: Member of `DEVELOPERS` and `SENIOR DEVS`. `SENIOR DEVS` is in `CN=Builtin`, which is unusual.
+    *   `jamie.williams`: Member of `DEVELOPERS`. High `badPwdCount` (5) makes direct password attacks risky.
+*   **Groups of Interest:**
+    *   `DEVELOPERS`: May have access to the `DEV` share.
+    *   `SENIOR DEVS`: Contains `ant.edwards`. Its placement in `CN=Builtin` warrants scrutiny.
+    *   `PUPPY ADMINS` OU: Contains `steph.cooper` and `steph.cooper_adm`.
+*   **Key Misconfigurations/Weaknesses:**
+    *   Account lockout threshold is 0.
+    *   `jamie.williams` has a `badPwdCount` of 5.
+*   **DEV Share:** Still inaccessible to `levi.james`. We need to ascertain if `DEVELOPERS` group members (`jamie.williams`, `ant.edwards`) can access it.
+
+**Immediate Next Steps & Focus:**
+
+1.  **Investigate `PUPPY ADMINS` OU (LDAP):**
+    *   Perform a detailed LDAP query on the `OU=PUPPY ADMINS,DC=PUPPY,DC=HTB` to list all objects (users, groups, other OUs) and their attributes. This will help understand its structure and any specific permissions or configurations applied to it.
+    *   **Command Idea:** `ldapsearch -x -H ldap://10.129.62.158 -D 'levi.james@PUPPY.HTB' -w 'KingofAkron2025!' -b 'OU=PUPPY ADMINS,DC=PUPPY,DC=HTB' '(objectClass=*)' '*' > "/home/parallels/Desktop/HTB/Season 8/Puppy/LDAP/ldap_puppy_admins_ou_details.txt"`
+2.  **Analyze `SENIOR DEVS` Group:**
+    *   Re-examine the `CN=SENIOR DEVS,CN=Builtin,DC=PUPPY,DC=HTB` group, specifically its privileges. Its location in `CN=Builtin` is suspicious and might grant it special default permissions.
+    *   BloodHound analysis might reveal if `SENIOR DEVS` has any direct or indirect control paths (e.g., over `adam.silver` which has WinRM rights).
+3.  **Revisit `DEV` Share Access (Conditionally):**
+    *   If we gain credentials for `jamie.williams` or `ant.edwards` (members of `DEVELOPERS`), attempt to access the `DEV` share: `smbclient //10.129.62.158/DEV -U PUPPY.HTB/<user>%<password> -c 'ls'`
+4.  **BloodHound Analysis (Re-check/Deeper Dive):**
+    *   Specifically look for attack paths from `levi.james` or `HR` to `steph.cooper_adm`, `steph.cooper`, `ant.edwards`, or `jamie.williams`.
+    *   Focus on paths involving `DEVELOPERS`, `SENIOR DEVS`, and the `PUPPY ADMINS` OU.
+    *   Look for GPO links to `PUPPY ADMINS` OU or the `MANPOWER` OU (where `levi.james` resides).
+
+**Credential Hunting Strategy:**
+
+*   **Password Spraying (Low and Slow):**
+    *   Consider for `ant.edwards` (`badPwdCount: 0`) using a *very* small, highly targeted wordlist based on company name, discovered terms, seasons, common AD passwords. Avoid for `jamie.williams` due to high `badPwdCount`.
+*   **Exploiting Group Memberships/ACLs:** This is the preferred method. Leverage BloodHound to find misconfigured ACLs that allow password resets, adding users to groups, or other takeovers.
+*   **Further Enumeration:** Continue looking for files, descriptions, or other data that might contain or hint at credentials.
+
+The immediate next step will be the detailed LDAP query on the `PUPPY ADMINS` OU.
