@@ -1,0 +1,110 @@
+# extended LDIF
+#
+# LDAPv3
+# base <DC=PUPPY,DC=HTB> with scope subtree
+# filter: (|(sAMAccountName=jamie.williams)(sAMAccountName=ant.edwards))
+# requesting: * 
+#
+
+# Anthony J. Edwards, PUPPY.HTB
+dn: CN=Anthony J. Edwards,DC=PUPPY,DC=HTB
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Anthony J. Edwards
+sn: Edwards
+givenName: Anthony
+initials: J
+distinguishedName: CN=Anthony J. Edwards,DC=PUPPY,DC=HTB
+instanceType: 4
+whenCreated: 20250219121314.0Z
+whenChanged: 20250321053316.0Z
+displayName: Anthony J. Edwards
+uSNCreated: 12807
+memberOf: CN=DEVELOPERS,DC=PUPPY,DC=HTB
+memberOf: CN=SENIOR DEVS,CN=Builtin,DC=PUPPY,DC=HTB
+uSNChanged: 94250
+name: Anthony J. Edwards
+objectGUID:: x6FSB985RE+hYLmXqzCKaQ==
+userAccountControl: 66048
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+homeDirectory: C:\Users\ant.edwards
+badPasswordTime: 133862719952986032
+lastLogoff: 0
+lastLogon: 133862719954400121
+pwdLastSet: 133844407944654314
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAQ9CwWJ8ZBW3HmPiHUAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: ant.edwards
+sAMAccountType: 805306368
+userPrincipalName: ant.edwards@PUPPY.HTB
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB
+dSCorePropagationData: 20250219133305.0Z
+dSCorePropagationData: 20250219131555.0Z
+dSCorePropagationData: 16010101000417.0Z
+lastLogonTimestamp: 133870087963865374
+
+# Jamie S. Williams, Users, PUPPY.HTB
+dn: CN=Jamie S. Williams,CN=Users,DC=PUPPY,DC=HTB
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Jamie S. Williams
+sn: Williams
+givenName: Jamie
+initials: S
+distinguishedName: CN=Jamie S. Williams,CN=Users,DC=PUPPY,DC=HTB
+instanceType: 4
+whenCreated: 20250219121726.0Z
+whenChanged: 20250309201147.0Z
+displayName: Jamie S. Williams
+uSNCreated: 12821
+memberOf: CN=DEVELOPERS,DC=PUPPY,DC=HTB
+uSNChanged: 49198
+name: Jamie S. Williams
+objectGUID:: UhI9I/UlykqYpVTWFdiGew==
+userAccountControl: 66048
+badPwdCount: 5
+codePage: 0
+countryCode: 0
+badPasswordTime: 133862719958304423
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133844410465595414
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAQ9CwWJ8ZBW3HmPiHUgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: jamie.williams
+sAMAccountType: 805306368
+userPrincipalName: jamie.williams@PUPPY.HTB
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB
+dSCorePropagationData: 20250309201147.0Z
+dSCorePropagationData: 20250219142641.0Z
+dSCorePropagationData: 20250219141107.0Z
+dSCorePropagationData: 20250219140831.0Z
+dSCorePropagationData: 16010101000000.0Z
+lastLogonTimestamp: 133856002855431158
+
+# search reference
+ref: ldap://ForestDnsZones.PUPPY.HTB/DC=ForestDnsZones,DC=PUPPY,DC=HTB
+
+# search reference
+ref: ldap://DomainDnsZones.PUPPY.HTB/DC=DomainDnsZones,DC=PUPPY,DC=HTB
+
+# search reference
+ref: ldap://PUPPY.HTB/CN=Configuration,DC=PUPPY,DC=HTB
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 6
+# numEntries: 2
+# numReferences: 3

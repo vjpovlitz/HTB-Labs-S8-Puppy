@@ -1,0 +1,176 @@
+[{
+    "attributes": {
+        "auditingPolicy": [
+            "\u0000\u0001"
+        ],
+        "creationTime": [
+            "2025-05-23 06:16:08.618761+00:00"
+        ],
+        "dSASignature": [
+            {
+                "encoded": "AQAAACgAAAAAAAAAAAAAAAAAAAAAAAAA8z/qKw24okKKYznuOJ2yUg==",
+                "encoding": "base64"
+            }
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "dc": [
+            "PUPPY"
+        ],
+        "distinguishedName": [
+            "DC=PUPPY,DC=HTB"
+        ],
+        "fSMORoleOwner": [
+            "CN=NTDS Settings,CN=DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "forceLogoff": [
+            -9223372036854775808
+        ],
+        "gPLink": [
+            "[LDAP://CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=PUPPY,DC=HTB;0]"
+        ],
+        "instanceType": [
+            5
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lockOutObservationWindow": [
+            "0:30:00"
+        ],
+        "lockoutDuration": [
+            "0:30:00"
+        ],
+        "lockoutThreshold": [
+            0
+        ],
+        "masteredBy": [
+            "CN=NTDS Settings,CN=DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "maxPwdAge": [
+            "42 days, 0:00:00"
+        ],
+        "minPwdAge": [
+            "1 day, 0:00:00"
+        ],
+        "minPwdLength": [
+            7
+        ],
+        "modifiedCount": [
+            1
+        ],
+        "modifiedCountAtLastProm": [
+            0
+        ],
+        "ms-DS-MachineAccountQuota": [
+            0
+        ],
+        "msDS-AllUsersTrustQuota": [
+            1000
+        ],
+        "msDS-Behavior-Version": [
+            7
+        ],
+        "msDS-ExpirePasswordsOnSmartCardOnlyAccounts": [
+            true
+        ],
+        "msDS-IsDomainFor": [
+            "CN=NTDS Settings,CN=DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "msDS-NcType": [
+            0
+        ],
+        "msDS-PerUserTrustQuota": [
+            1
+        ],
+        "msDS-PerUserTrustTombstonesQuota": [
+            10
+        ],
+        "msDs-masteredBy": [
+            "CN=NTDS Settings,CN=DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "nTMixedDomain": [
+            0
+        ],
+        "name": [
+            "PUPPY"
+        ],
+        "nextRid": [
+            1000
+        ],
+        "objectCategory": [
+            "CN=Domain-DNS,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "domain",
+            "domainDNS"
+        ],
+        "objectGUID": [
+            "{76178378-869c-43a8-8452-26e1c303b066}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199"
+        ],
+        "otherWellKnownObjects": [
+            "B:32:683A24E2E8164BD3AF86AC3C2CF3F981:CN=Keys,DC=PUPPY,DC=HTB",
+            "B:32:1EB93889E40C45DF9F0C64D23BBB6237:CN=Managed Service Accounts,DC=PUPPY,DC=HTB"
+        ],
+        "pwdHistoryLength": [
+            24
+        ],
+        "pwdProperties": [
+            1
+        ],
+        "rIDManagerReference": [
+            "CN=RID Manager$,CN=System,DC=PUPPY,DC=HTB"
+        ],
+        "replUpToDateVector": [
+            {
+                "encoded": "AgAAAAAAAAAIAAAAAAAAAHrBDSHJqzVKtGDmkiccCZshMAIAAAAAAOUcLx4DAAAA8z/qKw24okKKYznuOJ2yUhzgAQAAAAAAfscuHgMAAACZjeoySLqPTplCQ/aJp+96IkACAAAAAABjETMeAwAAAFlaJVRttglGk/xNMT0toxknkAIAAAAAAEdnNR4DAAAAwqPKhuCCykK38ELYsscPlimwAgAAAAAApqNAHgMAAABFM0eOJAoIRJRLTQ/ZsECuJoACAAAAAAARWzUeAwAAAMOwzcAL0RlIvlrHIdplHWgkYAIAAAAAAGppNB4DAAAAGnqu3wzDWEaJEj3YDb+PEyigAgAAAAAAXIY1HgMAAAA=",
+                "encoding": "base64"
+            }
+        ],
+        "serverState": [
+            1
+        ],
+        "subRefs": [
+            "DC=ForestDnsZones,DC=PUPPY,DC=HTB",
+            "DC=DomainDnsZones,DC=PUPPY,DC=HTB",
+            "CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uASCompat": [
+            0
+        ],
+        "uSNChanged": [
+            176179
+        ],
+        "uSNCreated": [
+            4099
+        ],
+        "wellKnownObjects": [
+            "B:32:6227F0AF1FC2410D8E3BB10615BB5B0F:CN=NTDS Quotas,DC=PUPPY,DC=HTB",
+            "B:32:F4BE92A4C777485E878E9421D53087DB:CN=Microsoft,CN=Program Data,DC=PUPPY,DC=HTB",
+            "B:32:09460C08AE1E4A4EA0F64AEE7DAA1E5A:CN=Program Data,DC=PUPPY,DC=HTB",
+            "B:32:22B70C67D56E4EFB91E9300FCA3DC1AA:CN=ForeignSecurityPrincipals,DC=PUPPY,DC=HTB",
+            "B:32:18E2EA80684F11D2B9AA00C04F79F805:CN=Deleted Objects,DC=PUPPY,DC=HTB",
+            "B:32:2FBAC1870ADE11D297C400C04FD8D5CD:CN=Infrastructure,DC=PUPPY,DC=HTB",
+            "B:32:AB8153B7768811D1ADED00C04FD8D5CD:CN=LostAndFound,DC=PUPPY,DC=HTB",
+            "B:32:AB1D30F3768811D1ADED00C04FD8D5CD:CN=System,DC=PUPPY,DC=HTB",
+            "B:32:A361B2FFFFD211D1AA4B00C04FD7D83A:OU=Domain Controllers,DC=PUPPY,DC=HTB",
+            "B:32:AA312825768811D1ADED00C04FD8D5CD:CN=Computers,DC=PUPPY,DC=HTB",
+            "B:32:A9D1CA15768811D1ADED00C04FD8D5CD:CN=Users,DC=PUPPY,DC=HTB"
+        ],
+        "whenChanged": [
+            "2025-05-23 06:16:08+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 11:45:01+00:00"
+        ]
+    },
+    "dn": "DC=PUPPY,DC=HTB"
+}]

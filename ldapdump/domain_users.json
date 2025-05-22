@@ -1,0 +1,990 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2025-03-12 16:53:15.878637+00:00"
+        ],
+        "badPwdCount": [
+            5
+        ],
+        "cn": [
+            "Stephen A. Cooper_adm"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2025-03-08 16:26:37+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Stephen A. Cooper"
+        ],
+        "distinguishedName": [
+            "CN=Stephen A. Cooper_adm,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB"
+        ],
+        "givenName": [
+            "Stephen"
+        ],
+        "initials": [
+            "A"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2025-03-21 05:33:43.386890+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Administrators,CN=Builtin,DC=PUPPY,DC=HTB"
+        ],
+        "name": [
+            "Stephen A. Cooper_adm"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{b13b2c20-1f1a-448f-b2e1-639ff184e6d6}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-1111"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2025-03-08 15:50:40.282429+00:00"
+        ],
+        "sAMAccountName": [
+            "steph.cooper_adm"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Cooper_adm"
+        ],
+        "uSNChanged": [
+            94259
+        ],
+        "uSNCreated": [
+            45124
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "steph.cooper_adm@PUPPY.HTB"
+        ],
+        "whenChanged": [
+            "2025-03-21 05:33:43+00:00"
+        ],
+        "whenCreated": [
+            "2025-03-08 15:50:40+00:00"
+        ]
+    },
+    "dn": "CN=Stephen A. Cooper_adm,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2025-03-12 16:53:15.848932+00:00"
+        ],
+        "badPwdCount": [
+            5
+        ],
+        "cn": [
+            "Stephen W. Cooper"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2025-05-09 17:45:23+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Stephen W. Cooper"
+        ],
+        "distinguishedName": [
+            "CN=Stephen W. Cooper,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB"
+        ],
+        "givenName": [
+            "Stephen"
+        ],
+        "homeDirectory": [
+            "C:\\Users\\Steph.cooper"
+        ],
+        "initials": [
+            "W"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2025-03-08 15:40:35.273575+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2025-03-04 22:18:05.370834+00:00"
+        ],
+        "logonCount": [
+            1
+        ],
+        "memberOf": [
+            "CN=Remote Management Users,CN=Builtin,DC=PUPPY,DC=HTB"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "Stephen W. Cooper"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{ba8f48bd-c306-4a85-8f99-bf3f9df4c532}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-1107"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2025-02-19 12:21:00.059719+00:00"
+        ],
+        "sAMAccountName": [
+            "steph.cooper"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Cooper"
+        ],
+        "uSNChanged": [
+            131113
+        ],
+        "uSNCreated": [
+            12834
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "steph.cooper@PUPPY.HTB"
+        ],
+        "whenChanged": [
+            "2025-05-09 17:45:23+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 12:21:00+00:00"
+        ]
+    },
+    "dn": "CN=Stephen W. Cooper,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2025-03-12 16:53:15.830442+00:00"
+        ],
+        "badPwdCount": [
+            5
+        ],
+        "cn": [
+            "Jamie S. Williams"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2025-03-09 20:11:47+00:00",
+            "2025-02-19 14:26:41+00:00",
+            "2025-02-19 14:11:07+00:00",
+            "2025-02-19 14:08:31+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Jamie S. Williams"
+        ],
+        "distinguishedName": [
+            "CN=Jamie S. Williams,CN=Users,DC=PUPPY,DC=HTB"
+        ],
+        "givenName": [
+            "Jamie"
+        ],
+        "initials": [
+            "S"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2025-03-04 22:18:05.543116+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=DEVELOPERS,DC=PUPPY,DC=HTB"
+        ],
+        "name": [
+            "Jamie S. Williams"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{233d1252-25f5-4aca-98a5-54d615d8867b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-1106"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2025-02-19 12:17:26.559542+00:00"
+        ],
+        "sAMAccountName": [
+            "jamie.williams"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Williams"
+        ],
+        "uSNChanged": [
+            49198
+        ],
+        "uSNCreated": [
+            12821
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "jamie.williams@PUPPY.HTB"
+        ],
+        "whenChanged": [
+            "2025-03-09 20:11:47+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 12:17:26+00:00"
+        ]
+    },
+    "dn": "CN=Jamie S. Williams,CN=Users,DC=PUPPY,DC=HTB"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2025-03-14 00:03:28.468460+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Adam D. Silver"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2025-03-09 21:08:03+00:00",
+            "2025-02-28 21:22:38+00:00",
+            "2025-02-19 14:36:27+00:00",
+            "2025-02-19 14:26:57+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Adam D. Silver"
+        ],
+        "distinguishedName": [
+            "CN=Adam D. Silver,CN=Users,DC=PUPPY,DC=HTB"
+        ],
+        "givenName": [
+            "Adam"
+        ],
+        "homeDirectory": [
+            "C:\\Users\\adam.silver"
+        ],
+        "initials": [
+            "D"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2025-03-14 00:03:46.546146+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2025-03-13 16:40:26.740168+00:00"
+        ],
+        "logonCount": [
+            6
+        ],
+        "memberOf": [
+            "CN=DEVELOPERS,DC=PUPPY,DC=HTB",
+            "CN=Remote Management Users,CN=Builtin,DC=PUPPY,DC=HTB"
+        ],
+        "name": [
+            "Adam D. Silver"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{1bdd74e9-5304-4eb2-ad6b-c731371f0aeb}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-1105"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2025-05-23 06:19:30.962511+00:00"
+        ],
+        "sAMAccountName": [
+            "adam.silver"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Silver"
+        ],
+        "uSNChanged": [
+            176222
+        ],
+        "uSNCreated": [
+            12814
+        ],
+        "userAccountControl": [
+            66050
+        ],
+        "userParameters": [
+            "                                                P\u0004\u001a\b\u0001CtxCfgPresent\u3535\u6531\u6230\u3062\u0018\b\u0001CtxCfgFlags1\u3030\u3066\u3032\u3039\u0012\b\u0001CtxShadow\u3030\u3030\u3030\u3030*\u0002\u0001CtxMinEncryptionLevel\u3130"
+        ],
+        "userPrincipalName": [
+            "adam.silver@PUPPY.HTB"
+        ],
+        "whenChanged": [
+            "2025-05-23 06:19:30+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 12:16:23+00:00"
+        ]
+    },
+    "dn": "CN=Adam D. Silver,CN=Users,DC=PUPPY,DC=HTB"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2025-05-23 06:27:17.399996+00:00"
+        ],
+        "badPwdCount": [
+            2
+        ],
+        "cn": [
+            "Anthony J. Edwards"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2025-02-19 13:33:05+00:00",
+            "2025-02-19 13:15:55+00:00",
+            "1601-01-01 00:04:17+00:00"
+        ],
+        "displayName": [
+            "Anthony J. Edwards"
+        ],
+        "distinguishedName": [
+            "CN=Anthony J. Edwards,DC=PUPPY,DC=HTB"
+        ],
+        "givenName": [
+            "Anthony"
+        ],
+        "homeDirectory": [
+            "C:\\Users\\ant.edwards"
+        ],
+        "initials": [
+            "J"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2025-03-12 16:53:15.440012+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2025-03-21 05:33:16.386538+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=DEVELOPERS,DC=PUPPY,DC=HTB",
+            "CN=SENIOR DEVS,CN=Builtin,DC=PUPPY,DC=HTB"
+        ],
+        "name": [
+            "Anthony J. Edwards"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{0752a1c7-39df-4f44-a160-b997ab308a69}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-1104"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2025-02-19 12:13:14.465431+00:00"
+        ],
+        "sAMAccountName": [
+            "ant.edwards"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Edwards"
+        ],
+        "uSNChanged": [
+            94250
+        ],
+        "uSNCreated": [
+            12807
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "ant.edwards@PUPPY.HTB"
+        ],
+        "whenChanged": [
+            "2025-03-21 05:33:16+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 12:13:14+00:00"
+        ]
+    },
+    "dn": "CN=Anthony J. Edwards,DC=PUPPY,DC=HTB"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2025-03-12 16:53:15.767851+00:00"
+        ],
+        "badPwdCount": [
+            5
+        ],
+        "cn": [
+            "Levi B. James"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2025-05-09 17:31:06+00:00",
+            "2025-02-19 13:15:04+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "displayName": [
+            "Levi B. James"
+        ],
+        "distinguishedName": [
+            "CN=Levi B. James,OU=MANPOWER,DC=PUPPY,DC=HTB"
+        ],
+        "givenName": [
+            "Levi"
+        ],
+        "initials": [
+            "B"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2025-03-12 00:24:12.185862+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2025-05-23 06:26:01.634474+00:00"
+        ],
+        "logonCount": [
+            1
+        ],
+        "managedObjects": [
+            "OU=MANPOWER,DC=PUPPY,DC=HTB"
+        ],
+        "memberOf": [
+            "CN=HR,DC=PUPPY,DC=HTB"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "Levi B. James"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{93d240d9-01a2-4d7d-9443-cbd494b93cae}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-1103"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2025-02-19 12:10:56.996971+00:00"
+        ],
+        "sAMAccountName": [
+            "levi.james"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "James"
+        ],
+        "uSNChanged": [
+            176233
+        ],
+        "uSNCreated": [
+            12798
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "levi.james@PUPPY.HTB"
+        ],
+        "whenChanged": [
+            "2025-05-23 06:26:01+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 12:10:56+00:00"
+        ]
+    },
+    "dn": "CN=Levi B. James,OU=MANPOWER,DC=PUPPY,DC=HTB"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "krbtgt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2025-02-19 12:01:25+00:00",
+            "2025-02-19 11:46:16+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Key Distribution Center Service Account"
+        ],
+        "distinguishedName": [
+            "CN=krbtgt,CN=Users,DC=PUPPY,DC=HTB"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=PUPPY,DC=HTB"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "krbtgt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{3e0b16a5-ad46-471a-981d-37f30f6e564f}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-502"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2025-02-19 11:46:15.592215+00:00"
+        ],
+        "sAMAccountName": [
+            "krbtgt"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "kadmin/changepw"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "uSNChanged": [
+            12787
+        ],
+        "uSNCreated": [
+            12324
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "whenChanged": [
+            "2025-02-19 12:01:25+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 11:46:15+00:00"
+        ]
+    },
+    "dn": "CN=krbtgt,CN=Users,DC=PUPPY,DC=HTB"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2025-02-19 11:46:16+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Built-in account for guest access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Guest,CN=Users,DC=PUPPY,DC=HTB"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=PUPPY,DC=HTB"
+        ],
+        "name": [
+            "Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{ba9c99cf-15a0-4a35-8552-75f3e17fa7c4}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-501"
+        ],
+        "primaryGroupID": [
+            514
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "Guest"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            8197
+        ],
+        "uSNCreated": [
+            8197
+        ],
+        "userAccountControl": [
+            66082
+        ],
+        "whenChanged": [
+            "2025-02-19 11:45:12+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 11:45:12+00:00"
+        ]
+    },
+    "dn": "CN=Guest,CN=Users,DC=PUPPY,DC=HTB"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2025-03-21 22:27:48.722851+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Administrator"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2025-02-19 12:01:25+00:00",
+            "2025-02-19 12:01:25+00:00",
+            "2025-02-19 11:46:16+00:00",
+            "1601-01-01 18:12:16+00:00"
+        ],
+        "description": [
+            "Built-in account for administering the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrator,CN=Users,DC=PUPPY,DC=HTB"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2025-05-23 06:17:02.884476+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2025-05-23 06:16:52.243744+00:00"
+        ],
+        "logonCount": [
+            107
+        ],
+        "memberOf": [
+            "CN=Group Policy Creator Owners,CN=Users,DC=PUPPY,DC=HTB",
+            "CN=Domain Admins,CN=Users,DC=PUPPY,DC=HTB",
+            "CN=Enterprise Admins,CN=Users,DC=PUPPY,DC=HTB",
+            "CN=Schema Admins,CN=Users,DC=PUPPY,DC=HTB",
+            "CN=Administrators,CN=Builtin,DC=PUPPY,DC=HTB"
+        ],
+        "name": [
+            "Administrator"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{68eb3e77-998b-4445-876e-86f021142a7e}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-500"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2025-02-19 19:33:28.320889+00:00"
+        ],
+        "sAMAccountName": [
+            "Administrator"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            176189
+        ],
+        "uSNCreated": [
+            8196
+        ],
+        "userAccountControl": [
+            1114624
+        ],
+        "whenChanged": [
+            "2025-05-23 06:16:52+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 11:45:12+00:00"
+        ]
+    },
+    "dn": "CN=Administrator,CN=Users,DC=PUPPY,DC=HTB"
+}]

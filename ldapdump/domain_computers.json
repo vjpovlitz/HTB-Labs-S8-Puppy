@@ -1,0 +1,150 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "DC"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "DC.PUPPY.HTB"
+        ],
+        "dSCorePropagationData": [
+            "2025-02-19 11:46:16+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "distinguishedName": [
+            "CN=DC,OU=Domain Controllers,DC=PUPPY,DC=HTB"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2025-05-23 06:16:50.993740+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2025-05-23 06:16:49.134365+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            212
+        ],
+        "msDFSR-ComputerReferenceBL": [
+            "CN=DC,CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=PUPPY,DC=HTB"
+        ],
+        "msDS-GenerationId": [
+            {
+                "encoded": "citKpEXOH+c=",
+                "encoding": "base64"
+            }
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "DC"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{039cdc07-94b3-45b2-90bd-b0526bd3b7f6}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1487982659-1829050783-2281216199-1000"
+        ],
+        "operatingSystem": [
+            "Windows Server 2022 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (20348)"
+        ],
+        "primaryGroupID": [
+            516
+        ],
+        "pwdLastSet": [
+            "2025-05-09 17:08:45.548141+00:00"
+        ],
+        "rIDSetReferences": [
+            "CN=RID Set,CN=DC,OU=Domain Controllers,DC=PUPPY,DC=HTB"
+        ],
+        "sAMAccountName": [
+            "DC$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "serverReferenceBL": [
+            "CN=DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=PUPPY,DC=HTB"
+        ],
+        "servicePrincipalName": [
+            "iSCSITarget/DC",
+            "iSCSITarget/DC.PUPPY.HTB",
+            "TERMSRV/DC",
+            "TERMSRV/DC.PUPPY.HTB",
+            "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/DC.PUPPY.HTB",
+            "ldap/DC.PUPPY.HTB/ForestDnsZones.PUPPY.HTB",
+            "ldap/DC.PUPPY.HTB/DomainDnsZones.PUPPY.HTB",
+            "DNS/DC.PUPPY.HTB",
+            "GC/DC.PUPPY.HTB/PUPPY.HTB",
+            "RestrictedKrbHost/DC.PUPPY.HTB",
+            "RestrictedKrbHost/DC",
+            "RPC/2bea3ff3-b80d-42a2-8a63-39ee389db252._msdcs.PUPPY.HTB",
+            "HOST/DC/PUPPY",
+            "HOST/DC.PUPPY.HTB/PUPPY",
+            "HOST/DC",
+            "HOST/DC.PUPPY.HTB",
+            "HOST/DC.PUPPY.HTB/PUPPY.HTB",
+            "E3514235-4B06-11D1-AB04-00C04FC2DCD2/2bea3ff3-b80d-42a2-8a63-39ee389db252/PUPPY.HTB",
+            "ldap/DC/PUPPY",
+            "ldap/2bea3ff3-b80d-42a2-8a63-39ee389db252._msdcs.PUPPY.HTB",
+            "ldap/DC.PUPPY.HTB/PUPPY",
+            "ldap/DC",
+            "ldap/DC.PUPPY.HTB",
+            "ldap/DC.PUPPY.HTB/PUPPY.HTB"
+        ],
+        "uSNChanged": [
+            176186
+        ],
+        "uSNCreated": [
+            12293
+        ],
+        "userAccountControl": [
+            532480
+        ],
+        "whenChanged": [
+            "2025-05-23 06:16:49+00:00"
+        ],
+        "whenCreated": [
+            "2025-02-19 11:46:15+00:00"
+        ]
+    },
+    "dn": "CN=DC,OU=Domain Controllers,DC=PUPPY,DC=HTB"
+}]
