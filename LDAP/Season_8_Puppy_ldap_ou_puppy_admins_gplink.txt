@@ -1,0 +1,17 @@
+# extended LDIF
+#
+# LDAPv3
+# base <OU=PUPPY ADMINS,DC=PUPPY,DC=HTB> with scope subtree
+# filter: (objectClass=organizationalUnit)
+# requesting: gPLink gPOptions 
+#
+
+# PUPPY ADMINS, PUPPY.HTB
+dn: OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1

@@ -1,0 +1,115 @@
+# extended LDIF
+#
+# LDAPv3
+# base <OU=PUPPY ADMINS,DC=PUPPY,DC=HTB> with scope subtree
+# filter: (objectClass=*)
+# requesting: * 
+#
+
+# PUPPY ADMINS, PUPPY.HTB
+dn: OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+objectClass: top
+objectClass: organizationalUnit
+ou: PUPPY ADMINS
+distinguishedName: OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+instanceType: 4
+whenCreated: 20250219121952.0Z
+whenChanged: 20250219121952.0Z
+uSNCreated: 12831
+uSNChanged: 12832
+name: PUPPY ADMINS
+objectGUID:: +TB2SYQs2kuP1EgSvIlrmQ==
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,DC=PUPPY,DC=
+ HTB
+dSCorePropagationData: 20250219121952.0Z
+dSCorePropagationData: 16010101000000.0Z
+
+# Stephen W. Cooper, PUPPY ADMINS, PUPPY.HTB
+dn: CN=Stephen W. Cooper,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Stephen W. Cooper
+sn: Cooper
+givenName: Stephen
+initials: W
+distinguishedName: CN=Stephen W. Cooper,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+instanceType: 4
+whenCreated: 20250219122100.0Z
+whenChanged: 20250509174523.0Z
+displayName: Stephen W. Cooper
+uSNCreated: 12834
+memberOf: CN=Remote Management Users,CN=Builtin,DC=PUPPY,DC=HTB
+uSNChanged: 131113
+name: Stephen W. Cooper
+objectGUID:: vUiPugbDhUqPmb8/nfTFMg==
+userAccountControl: 66048
+badPwdCount: 5
+codePage: 0
+countryCode: 0
+homeDirectory: C:\Users\Steph.cooper
+badPasswordTime: 133862719958489328
+lastLogoff: 0
+lastLogon: 133859220352735738
+pwdLastSet: 133844412600597180
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAQ9CwWJ8ZBW3HmPiHUwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 1
+sAMAccountName: steph.cooper
+sAMAccountType: 805306368
+userPrincipalName: steph.cooper@PUPPY.HTB
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB
+dSCorePropagationData: 20250509174523.0Z
+dSCorePropagationData: 16010101000000.0Z
+lastLogonTimestamp: 133856002853708357
+msDS-SupportedEncryptionTypes: 0
+
+# Stephen A. Cooper_adm, PUPPY ADMINS, PUPPY.HTB
+dn: CN=Stephen A. Cooper_adm,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Stephen A. Cooper_adm
+sn: Cooper_adm
+givenName: Stephen
+initials: A
+distinguishedName: CN=Stephen A. Cooper_adm,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+instanceType: 4
+whenCreated: 20250308155040.0Z
+whenChanged: 20250321053343.0Z
+displayName: Stephen A. Cooper
+uSNCreated: 45124
+memberOf: CN=Administrators,CN=Builtin,DC=PUPPY,DC=HTB
+uSNChanged: 94259
+name: Stephen A. Cooper_adm
+objectGUID:: ICw7sRofj0Sy4WOf8YTm1g==
+userAccountControl: 66048
+badPwdCount: 5
+codePage: 0
+countryCode: 0
+badPasswordTime: 133862719958786368
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133859226402824295
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAQ9CwWJ8ZBW3HmPiHVwQAAA==
+adminCount: 1
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: steph.cooper_adm
+sAMAccountType: 805306368
+userPrincipalName: steph.cooper_adm@PUPPY.HTB
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=PUPPY,DC=HTB
+dSCorePropagationData: 20250308162637.0Z
+dSCorePropagationData: 16010101000000.0Z
+lastLogonTimestamp: 133870088233868902
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 4
+# numEntries: 3

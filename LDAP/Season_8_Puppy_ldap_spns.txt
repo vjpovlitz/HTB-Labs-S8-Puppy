@@ -1,0 +1,1131 @@
+# extended LDIF
+#
+# LDAPv3
+# base <DC=PUPPY,DC=HTB> with scope subtree
+# filter: (!(userAccountControl:1.2.840.113556.1.4.803:=2))
+# requesting: servicePrincipalName sAMAccountName 
+#
+
+# PUPPY.HTB
+dn: DC=PUPPY,DC=HTB
+
+# Users, PUPPY.HTB
+dn: CN=Users,DC=PUPPY,DC=HTB
+
+# Computers, PUPPY.HTB
+dn: CN=Computers,DC=PUPPY,DC=HTB
+
+# Domain Controllers, PUPPY.HTB
+dn: OU=Domain Controllers,DC=PUPPY,DC=HTB
+
+# System, PUPPY.HTB
+dn: CN=System,DC=PUPPY,DC=HTB
+
+# LostAndFound, PUPPY.HTB
+dn: CN=LostAndFound,DC=PUPPY,DC=HTB
+
+# Infrastructure, PUPPY.HTB
+dn: CN=Infrastructure,DC=PUPPY,DC=HTB
+
+# ForeignSecurityPrincipals, PUPPY.HTB
+dn: CN=ForeignSecurityPrincipals,DC=PUPPY,DC=HTB
+
+# Program Data, PUPPY.HTB
+dn: CN=Program Data,DC=PUPPY,DC=HTB
+
+# Microsoft, Program Data, PUPPY.HTB
+dn: CN=Microsoft,CN=Program Data,DC=PUPPY,DC=HTB
+
+# NTDS Quotas, PUPPY.HTB
+dn: CN=NTDS Quotas,DC=PUPPY,DC=HTB
+
+# Managed Service Accounts, PUPPY.HTB
+dn: CN=Managed Service Accounts,DC=PUPPY,DC=HTB
+
+# Keys, PUPPY.HTB
+dn: CN=Keys,DC=PUPPY,DC=HTB
+
+# WinsockServices, System, PUPPY.HTB
+dn: CN=WinsockServices,CN=System,DC=PUPPY,DC=HTB
+
+# RpcServices, System, PUPPY.HTB
+dn: CN=RpcServices,CN=System,DC=PUPPY,DC=HTB
+
+# FileLinks, System, PUPPY.HTB
+dn: CN=FileLinks,CN=System,DC=PUPPY,DC=HTB
+
+# VolumeTable, FileLinks, System, PUPPY.HTB
+dn: CN=VolumeTable,CN=FileLinks,CN=System,DC=PUPPY,DC=HTB
+
+# ObjectMoveTable, FileLinks, System, PUPPY.HTB
+dn: CN=ObjectMoveTable,CN=FileLinks,CN=System,DC=PUPPY,DC=HTB
+
+# Default Domain Policy, System, PUPPY.HTB
+dn: CN=Default Domain Policy,CN=System,DC=PUPPY,DC=HTB
+
+# AppCategories, Default Domain Policy, System, PUPPY.HTB
+dn: CN=AppCategories,CN=Default Domain Policy,CN=System,DC=PUPPY,DC=HTB
+
+# Meetings, System, PUPPY.HTB
+dn: CN=Meetings,CN=System,DC=PUPPY,DC=HTB
+
+# Policies, System, PUPPY.HTB
+dn: CN=Policies,CN=System,DC=PUPPY,DC=HTB
+
+# {31B2F340-016D-11D2-945F-00C04FB984F9}, Policies, System, PUPPY.HTB
+dn: CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=PUPPY,D
+ C=HTB
+
+# User, {31B2F340-016D-11D2-945F-00C04FB984F9}, Policies, System, PUPPY.HTB
+dn: CN=User,CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC
+ =PUPPY,DC=HTB
+
+# Machine, {31B2F340-016D-11D2-945F-00C04FB984F9}, Policies, System, PUPPY.HTB
+dn: CN=Machine,CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# {6AC1786C-016F-11D2-945F-00C04fB984F9}, Policies, System, PUPPY.HTB
+dn: CN={6AC1786C-016F-11D2-945F-00C04fB984F9},CN=Policies,CN=System,DC=PUPPY,D
+ C=HTB
+
+# User, {6AC1786C-016F-11D2-945F-00C04fB984F9}, Policies, System, PUPPY.HTB
+dn: CN=User,CN={6AC1786C-016F-11D2-945F-00C04fB984F9},CN=Policies,CN=System,DC
+ =PUPPY,DC=HTB
+
+# Machine, {6AC1786C-016F-11D2-945F-00C04fB984F9}, Policies, System, PUPPY.HTB
+dn: CN=Machine,CN={6AC1786C-016F-11D2-945F-00C04fB984F9},CN=Policies,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# RAS and IAS Servers Access Check, System, PUPPY.HTB
+dn: CN=RAS and IAS Servers Access Check,CN=System,DC=PUPPY,DC=HTB
+
+# File Replication Service, System, PUPPY.HTB
+dn: CN=File Replication Service,CN=System,DC=PUPPY,DC=HTB
+
+# Dfs-Configuration, System, PUPPY.HTB
+dn: CN=Dfs-Configuration,CN=System,DC=PUPPY,DC=HTB
+
+# IP Security, System, PUPPY.HTB
+dn: CN=IP Security,CN=System,DC=PUPPY,DC=HTB
+
+# ipsecPolicy{72385230-70FA-11D1-864C-14A300000000}, IP Security, System, PUPPY
+ .HTB
+dn: CN=ipsecPolicy{72385230-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=PUPPY,DC=HTB
+
+# ipsecISAKMPPolicy{72385231-70FA-11D1-864C-14A300000000}, IP Security, System,
+  PUPPY.HTB
+dn: CN=ipsecISAKMPPolicy{72385231-70FA-11D1-864C-14A300000000},CN=IP Security,
+ CN=System,DC=PUPPY,DC=HTB
+
+# ipsecNFA{72385232-70FA-11D1-864C-14A300000000}, IP Security, System, PUPPY.HT
+ B
+dn: CN=ipsecNFA{72385232-70FA-11D1-864C-14A300000000},CN=IP Security,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# ipsecNFA{59319BE2-5EE3-11D2-ACE8-0060B0ECCA17}, IP Security, System, PUPPY.HT
+ B
+dn: CN=ipsecNFA{59319BE2-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17}, IP Security, System, PUPPY.HT
+ B
+dn: CN=ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# ipsecNegotiationPolicy{72385233-70FA-11D1-864C-14A300000000}, IP Security, Sy
+ stem, PUPPY.HTB
+dn: CN=ipsecNegotiationPolicy{72385233-70FA-11D1-864C-14A300000000},CN=IP Secu
+ rity,CN=System,DC=PUPPY,DC=HTB
+
+# ipsecFilter{7238523A-70FA-11D1-864C-14A300000000}, IP Security, System, PUPPY
+ .HTB
+dn: CN=ipsecFilter{7238523A-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=PUPPY,DC=HTB
+
+# ipsecNegotiationPolicy{59319BDF-5EE3-11D2-ACE8-0060B0ECCA17}, IP Security, Sy
+ stem, PUPPY.HTB
+dn: CN=ipsecNegotiationPolicy{59319BDF-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Secu
+ rity,CN=System,DC=PUPPY,DC=HTB
+
+# ipsecNegotiationPolicy{7238523B-70FA-11D1-864C-14A300000000}, IP Security, Sy
+ stem, PUPPY.HTB
+dn: CN=ipsecNegotiationPolicy{7238523B-70FA-11D1-864C-14A300000000},CN=IP Secu
+ rity,CN=System,DC=PUPPY,DC=HTB
+
+# ipsecFilter{72385235-70FA-11D1-864C-14A300000000}, IP Security, System, PUPPY
+ .HTB
+dn: CN=ipsecFilter{72385235-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=PUPPY,DC=HTB
+
+# ipsecPolicy{72385236-70FA-11D1-864C-14A300000000}, IP Security, System, PUPPY
+ .HTB
+dn: CN=ipsecPolicy{72385236-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=PUPPY,DC=HTB
+
+# ipsecISAKMPPolicy{72385237-70FA-11D1-864C-14A300000000}, IP Security, System,
+  PUPPY.HTB
+dn: CN=ipsecISAKMPPolicy{72385237-70FA-11D1-864C-14A300000000},CN=IP Security,
+ CN=System,DC=PUPPY,DC=HTB
+
+# ipsecNFA{59319C04-5EE3-11D2-ACE8-0060B0ECCA17}, IP Security, System, PUPPY.HT
+ B
+dn: CN=ipsecNFA{59319C04-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# ipsecNegotiationPolicy{59319C01-5EE3-11D2-ACE8-0060B0ECCA17}, IP Security, Sy
+ stem, PUPPY.HTB
+dn: CN=ipsecNegotiationPolicy{59319C01-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Secu
+ rity,CN=System,DC=PUPPY,DC=HTB
+
+# ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000}, IP Security, System, PUPPY
+ .HTB
+dn: CN=ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=PUPPY,DC=HTB
+
+# ipsecISAKMPPolicy{7238523D-70FA-11D1-864C-14A300000000}, IP Security, System,
+  PUPPY.HTB
+dn: CN=ipsecISAKMPPolicy{7238523D-70FA-11D1-864C-14A300000000},CN=IP Security,
+ CN=System,DC=PUPPY,DC=HTB
+
+# ipsecNFA{7238523E-70FA-11D1-864C-14A300000000}, IP Security, System, PUPPY.HT
+ B
+dn: CN=ipsecNFA{7238523E-70FA-11D1-864C-14A300000000},CN=IP Security,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# ipsecNFA{59319BF3-5EE3-11D2-ACE8-0060B0ECCA17}, IP Security, System, PUPPY.HT
+ B
+dn: CN=ipsecNFA{59319BF3-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17}, IP Security, System, PUPPY.HT
+ B
+dn: CN=ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# ipsecNegotiationPolicy{7238523F-70FA-11D1-864C-14A300000000}, IP Security, Sy
+ stem, PUPPY.HTB
+dn: CN=ipsecNegotiationPolicy{7238523F-70FA-11D1-864C-14A300000000},CN=IP Secu
+ rity,CN=System,DC=PUPPY,DC=HTB
+
+# ipsecNegotiationPolicy{59319BF0-5EE3-11D2-ACE8-0060B0ECCA17}, IP Security, Sy
+ stem, PUPPY.HTB
+dn: CN=ipsecNegotiationPolicy{59319BF0-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Secu
+ rity,CN=System,DC=PUPPY,DC=HTB
+
+# ipsecNFA{6A1F5C6F-72B7-11D2-ACF0-0060B0ECCA17}, IP Security, System, PUPPY.HT
+ B
+dn: CN=ipsecNFA{6A1F5C6F-72B7-11D2-ACF0-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# AdminSDHolder, System, PUPPY.HTB
+dn: CN=AdminSDHolder,CN=System,DC=PUPPY,DC=HTB
+
+# ComPartitions, System, PUPPY.HTB
+dn: CN=ComPartitions,CN=System,DC=PUPPY,DC=HTB
+
+# ComPartitionSets, System, PUPPY.HTB
+dn: CN=ComPartitionSets,CN=System,DC=PUPPY,DC=HTB
+
+# WMIPolicy, System, PUPPY.HTB
+dn: CN=WMIPolicy,CN=System,DC=PUPPY,DC=HTB
+
+# PolicyTemplate, WMIPolicy, System, PUPPY.HTB
+dn: CN=PolicyTemplate,CN=WMIPolicy,CN=System,DC=PUPPY,DC=HTB
+
+# SOM, WMIPolicy, System, PUPPY.HTB
+dn: CN=SOM,CN=WMIPolicy,CN=System,DC=PUPPY,DC=HTB
+
+# PolicyType, WMIPolicy, System, PUPPY.HTB
+dn: CN=PolicyType,CN=WMIPolicy,CN=System,DC=PUPPY,DC=HTB
+
+# WMIGPO, WMIPolicy, System, PUPPY.HTB
+dn: CN=WMIGPO,CN=WMIPolicy,CN=System,DC=PUPPY,DC=HTB
+
+# DomainUpdates, System, PUPPY.HTB
+dn: CN=DomainUpdates,CN=System,DC=PUPPY,DC=HTB
+
+# Operations, DomainUpdates, System, PUPPY.HTB
+dn: CN=Operations,CN=DomainUpdates,CN=System,DC=PUPPY,DC=HTB
+
+# ab402345-d3c3-455d-9ff7-40268a1099b6, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=ab402345-d3c3-455d-9ff7-40268a1099b6,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# bab5f54d-06c8-48de-9b87-d78b796564e4, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=bab5f54d-06c8-48de-9b87-d78b796564e4,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# f3dd09dd-25e8-4f9c-85df-12d6d2f2f2f5, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=f3dd09dd-25e8-4f9c-85df-12d6d2f2f2f5,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 2416c60a-fe15-4d7a-a61e-dffd5df864d3, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=2416c60a-fe15-4d7a-a61e-dffd5df864d3,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 7868d4c8-ac41-4e05-b401-776280e8e9f1, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=7868d4c8-ac41-4e05-b401-776280e8e9f1,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 860c36ed-5241-4c62-a18b-cf6ff9994173, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=860c36ed-5241-4c62-a18b-cf6ff9994173,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 0e660ea3-8a5e-4495-9ad7-ca1bd4638f9e, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=0e660ea3-8a5e-4495-9ad7-ca1bd4638f9e,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# a86fe12a-0f62-4e2a-b271-d27f601f8182, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=a86fe12a-0f62-4e2a-b271-d27f601f8182,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# d85c0bfd-094f-4cad-a2b5-82ac9268475d, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=d85c0bfd-094f-4cad-a2b5-82ac9268475d,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6ada9ff7-c9df-45c1-908e-9fef2fab008a, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6ada9ff7-c9df-45c1-908e-9fef2fab008a,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 10b3ad2a-6883-4fa7-90fc-6377cbdc1b26, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=10b3ad2a-6883-4fa7-90fc-6377cbdc1b26,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 98de1d3e-6611-443b-8b4e-f4337f1ded0b, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=98de1d3e-6611-443b-8b4e-f4337f1ded0b,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# f607fd87-80cf-45e2-890b-6cf97ec0e284, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=f607fd87-80cf-45e2-890b-6cf97ec0e284,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 9cac1f66-2167-47ad-a472-2a13251310e4, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=9cac1f66-2167-47ad-a472-2a13251310e4,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6ff880d6-11e7-4ed1-a20f-aac45da48650, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6ff880d6-11e7-4ed1-a20f-aac45da48650,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 446f24ea-cfd5-4c52-8346-96e170bcb912, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=446f24ea-cfd5-4c52-8346-96e170bcb912,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 51cba88b-99cf-4e16-bef2-c427b38d0767, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=51cba88b-99cf-4e16-bef2-c427b38d0767,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# a3dac986-80e7-4e59-a059-54cb1ab43cb9, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=a3dac986-80e7-4e59-a059-54cb1ab43cb9,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 293f0798-ea5c-4455-9f5d-45f33a30703b, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=293f0798-ea5c-4455-9f5d-45f33a30703b,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 5c82b233-75fc-41b3-ac71-c69592e6bf15, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=5c82b233-75fc-41b3-ac71-c69592e6bf15,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 7ffef925-405b-440a-8d58-35e8cd6e98c3, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=7ffef925-405b-440a-8d58-35e8cd6e98c3,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 4dfbb973-8a62-4310-a90c-776e00f83222, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=4dfbb973-8a62-4310-a90c-776e00f83222,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 8437C3D8-7689-4200-BF38-79E4AC33DFA0, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=8437C3D8-7689-4200-BF38-79E4AC33DFA0,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 7cfb016c-4f87-4406-8166-bd9df943947f, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=7cfb016c-4f87-4406-8166-bd9df943947f,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# f7ed4553-d82b-49ef-a839-2f38a36bb069, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=f7ed4553-d82b-49ef-a839-2f38a36bb069,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 8ca38317-13a4-4bd4-806f-ebed6acb5d0c, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=8ca38317-13a4-4bd4-806f-ebed6acb5d0c,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 3c784009-1f57-4e2a-9b04-6915c9e71961, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=3c784009-1f57-4e2a-9b04-6915c9e71961,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5678-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5678-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5679-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5679-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd567a-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd567a-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd567b-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd567b-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd567c-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd567c-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd567d-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd567d-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd567e-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd567e-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd567f-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd567f-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5680-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5680-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5681-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5681-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5682-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5682-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5683-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5683-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5684-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5684-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5685-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5685-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5686-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5686-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5687-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5687-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5688-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5688-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd5689-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd5689-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd568a-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd568a-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd568b-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd568b-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd568c-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd568c-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 6bcd568d-8314-11d6-977b-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6bcd568d-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 3051c66f-b332-4a73-9a20-2d6a7d6e6a1c, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=3051c66f-b332-4a73-9a20-2d6a7d6e6a1c,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 3e4f4182-ac5d-4378-b760-0eab2de593e2, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=3e4f4182-ac5d-4378-b760-0eab2de593e2,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# c4f17608-e611-11d6-9793-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=c4f17608-e611-11d6-9793-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 13d15cf0-e6c8-11d6-9793-00c04f613221, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=13d15cf0-e6c8-11d6-9793-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 8ddf6913-1c7b-4c59-a5af-b9ca3b3d2c4c, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=8ddf6913-1c7b-4c59-a5af-b9ca3b3d2c4c,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# dda1d01d-4bd7-4c49-a184-46f9241b560e, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=dda1d01d-4bd7-4c49-a184-46f9241b560e,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# a1789bfb-e0a2-4739-8cc0-e77d892d080a, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=a1789bfb-e0a2-4739-8cc0-e77d892d080a,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 61b34cb0-55ee-4be9-b595-97810b92b017, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=61b34cb0-55ee-4be9-b595-97810b92b017,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 57428d75-bef7-43e1-938b-2e749f5a8d56, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=57428d75-bef7-43e1-938b-2e749f5a8d56,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# ebad865a-d649-416f-9922-456b53bbb5b8, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=ebad865a-d649-416f-9922-456b53bbb5b8,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 0b7fb422-3609-4587-8c2e-94b10f67d1bf, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=0b7fb422-3609-4587-8c2e-94b10f67d1bf,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 2951353e-d102-4ea5-906c-54247eeec741, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=2951353e-d102-4ea5-906c-54247eeec741,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 71482d49-8870-4cb3-a438-b6fc9ec35d70, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=71482d49-8870-4cb3-a438-b6fc9ec35d70,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# aed72870-bf16-4788-8ac7-22299c8207f1, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=aed72870-bf16-4788-8ac7-22299c8207f1,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# f58300d1-b71a-4DB6-88a1-a8b9538beaca, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=f58300d1-b71a-4DB6-88a1-a8b9538beaca,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 231fb90b-c92a-40c9-9379-bacfc313a3e3, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=231fb90b-c92a-40c9-9379-bacfc313a3e3,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 4aaabc3a-c416-4b9c-a6bb-4b453ab1c1f0, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=4aaabc3a-c416-4b9c-a6bb-4b453ab1c1f0,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 9738c400-7795-4d6e-b19d-c16cd6486166, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=9738c400-7795-4d6e-b19d-c16cd6486166,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# de10d491-909f-4fb0-9abb-4b7865c0fe80, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=de10d491-909f-4fb0-9abb-4b7865c0fe80,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# b96ed344-545a-4172-aa0c-68118202f125, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=b96ed344-545a-4172-aa0c-68118202f125,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 4c93ad42-178a-4275-8600-16811d28f3aa, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=4c93ad42-178a-4275-8600-16811d28f3aa,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# c88227bc-fcca-4b58-8d8a-cd3d64528a02, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=c88227bc-fcca-4b58-8d8a-cd3d64528a02,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 5e1574f6-55df-493e-a671-aaeffca6a100, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=5e1574f6-55df-493e-a671-aaeffca6a100,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# d262aae8-41f7-48ed-9f35-56bbb677573d, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=d262aae8-41f7-48ed-9f35-56bbb677573d,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 82112ba0-7e4c-4a44-89d9-d46c9612bf91, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=82112ba0-7e4c-4a44-89d9-d46c9612bf91,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# c3c927a6-cc1d-47c0-966b-be8f9b63d991, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=c3c927a6-cc1d-47c0-966b-be8f9b63d991,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 54afcfb9-637a-4251-9f47-4d50e7021211, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=54afcfb9-637a-4251-9f47-4d50e7021211,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# f4728883-84dd-483c-9897-274f2ebcf11e, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=f4728883-84dd-483c-9897-274f2ebcf11e,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# ff4f9d27-7157-4cb0-80a9-5d6f2b14c8ff, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=ff4f9d27-7157-4cb0-80a9-5d6f2b14c8ff,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 83C53DA7-427E-47A4-A07A-A324598B88F7, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=83C53DA7-427E-47A4-A07A-A324598B88F7,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# C81FC9CC-0130-4FD1-B272-634D74818133, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=C81FC9CC-0130-4FD1-B272-634D74818133,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# E5F9E791-D96D-4FC9-93C9-D53E1DC439BA, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=E5F9E791-D96D-4FC9-93C9-D53E1DC439BA,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# e6d5fd00-385d-4e65-b02d-9da3493ed850, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=e6d5fd00-385d-4e65-b02d-9da3493ed850,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 3a6b3fbf-3168-4312-a10d-dd5b3393952d, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=3a6b3fbf-3168-4312-a10d-dd5b3393952d,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 7F950403-0AB3-47F9-9730-5D7B0269F9BD, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=7F950403-0AB3-47F9-9730-5D7B0269F9BD,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# 434bb40d-dbc9-4fe7-81d4-d57229f7b080, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=434bb40d-dbc9-4fe7-81d4-d57229f7b080,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# A0C238BA-9E30-4EE6-80A6-43F731E9A5CD, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=A0C238BA-9E30-4EE6-80A6-43F731E9A5CD,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# Windows2003Update, DomainUpdates, System, PUPPY.HTB
+dn: CN=Windows2003Update,CN=DomainUpdates,CN=System,DC=PUPPY,DC=HTB
+
+# ActiveDirectoryUpdate, DomainUpdates, System, PUPPY.HTB
+dn: CN=ActiveDirectoryUpdate,CN=DomainUpdates,CN=System,DC=PUPPY,DC=HTB
+
+# Password Settings Container, System, PUPPY.HTB
+dn: CN=Password Settings Container,CN=System,DC=PUPPY,DC=HTB
+
+# PSPs, System, PUPPY.HTB
+dn: CN=PSPs,CN=System,DC=PUPPY,DC=HTB
+
+# TPM Devices, PUPPY.HTB
+dn: CN=TPM Devices,DC=PUPPY,DC=HTB
+
+# Administrator, Users, PUPPY.HTB
+dn: CN=Administrator,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Administrator
+
+# Builtin, PUPPY.HTB
+dn: CN=Builtin,DC=PUPPY,DC=HTB
+
+# Administrators, Builtin, PUPPY.HTB
+dn: CN=Administrators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Administrators
+
+# Users, Builtin, PUPPY.HTB
+dn: CN=Users,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Users
+
+# S-1-5-4, ForeignSecurityPrincipals, PUPPY.HTB
+dn: CN=S-1-5-4,CN=ForeignSecurityPrincipals,DC=PUPPY,DC=HTB
+
+# S-1-5-11, ForeignSecurityPrincipals, PUPPY.HTB
+dn: CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=PUPPY,DC=HTB
+
+# Guests, Builtin, PUPPY.HTB
+dn: CN=Guests,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Guests
+
+# Print Operators, Builtin, PUPPY.HTB
+dn: CN=Print Operators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Print Operators
+
+# Backup Operators, Builtin, PUPPY.HTB
+dn: CN=Backup Operators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Backup Operators
+
+# Replicator, Builtin, PUPPY.HTB
+dn: CN=Replicator,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Replicator
+
+# Remote Desktop Users, Builtin, PUPPY.HTB
+dn: CN=Remote Desktop Users,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Remote Desktop Users
+
+# Network Configuration Operators, Builtin, PUPPY.HTB
+dn: CN=Network Configuration Operators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Network Configuration Operators
+
+# Performance Monitor Users, Builtin, PUPPY.HTB
+dn: CN=Performance Monitor Users,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Performance Monitor Users
+
+# Performance Log Users, Builtin, PUPPY.HTB
+dn: CN=Performance Log Users,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Performance Log Users
+
+# Distributed COM Users, Builtin, PUPPY.HTB
+dn: CN=Distributed COM Users,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Distributed COM Users
+
+# IIS_IUSRS, Builtin, PUPPY.HTB
+dn: CN=IIS_IUSRS,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: IIS_IUSRS
+
+# S-1-5-17, ForeignSecurityPrincipals, PUPPY.HTB
+dn: CN=S-1-5-17,CN=ForeignSecurityPrincipals,DC=PUPPY,DC=HTB
+
+# Cryptographic Operators, Builtin, PUPPY.HTB
+dn: CN=Cryptographic Operators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Cryptographic Operators
+
+# Event Log Readers, Builtin, PUPPY.HTB
+dn: CN=Event Log Readers,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Event Log Readers
+
+# Certificate Service DCOM Access, Builtin, PUPPY.HTB
+dn: CN=Certificate Service DCOM Access,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Certificate Service DCOM Access
+
+# RDS Remote Access Servers, Builtin, PUPPY.HTB
+dn: CN=RDS Remote Access Servers,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: RDS Remote Access Servers
+
+# RDS Endpoint Servers, Builtin, PUPPY.HTB
+dn: CN=RDS Endpoint Servers,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: RDS Endpoint Servers
+
+# RDS Management Servers, Builtin, PUPPY.HTB
+dn: CN=RDS Management Servers,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: RDS Management Servers
+
+# Hyper-V Administrators, Builtin, PUPPY.HTB
+dn: CN=Hyper-V Administrators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Hyper-V Administrators
+
+# Access Control Assistance Operators, Builtin, PUPPY.HTB
+dn: CN=Access Control Assistance Operators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Access Control Assistance Operators
+
+# Remote Management Users, Builtin, PUPPY.HTB
+dn: CN=Remote Management Users,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Remote Management Users
+
+# Storage Replica Administrators, Builtin, PUPPY.HTB
+dn: CN=Storage Replica Administrators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Storage Replica Administrators
+
+# Server, System, PUPPY.HTB
+dn: CN=Server,CN=System,DC=PUPPY,DC=HTB
+
+# DC, Domain Controllers, PUPPY.HTB
+dn: CN=DC,OU=Domain Controllers,DC=PUPPY,DC=HTB
+sAMAccountName: DC$
+servicePrincipalName: iSCSITarget/DC
+servicePrincipalName: iSCSITarget/DC.PUPPY.HTB
+servicePrincipalName: TERMSRV/DC
+servicePrincipalName: TERMSRV/DC.PUPPY.HTB
+servicePrincipalName: Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/DC.PUPPY.HTB
+servicePrincipalName: ldap/DC.PUPPY.HTB/ForestDnsZones.PUPPY.HTB
+servicePrincipalName: ldap/DC.PUPPY.HTB/DomainDnsZones.PUPPY.HTB
+servicePrincipalName: DNS/DC.PUPPY.HTB
+servicePrincipalName: GC/DC.PUPPY.HTB/PUPPY.HTB
+servicePrincipalName: RestrictedKrbHost/DC.PUPPY.HTB
+servicePrincipalName: RestrictedKrbHost/DC
+servicePrincipalName: RPC/2bea3ff3-b80d-42a2-8a63-39ee389db252._msdcs.PUPPY.HT
+ B
+servicePrincipalName: HOST/DC/PUPPY
+servicePrincipalName: HOST/DC.PUPPY.HTB/PUPPY
+servicePrincipalName: HOST/DC
+servicePrincipalName: HOST/DC.PUPPY.HTB
+servicePrincipalName: HOST/DC.PUPPY.HTB/PUPPY.HTB
+servicePrincipalName: E3514235-4B06-11D1-AB04-00C04FC2DCD2/2bea3ff3-b80d-42a2-
+ 8a63-39ee389db252/PUPPY.HTB
+servicePrincipalName: ldap/DC/PUPPY
+servicePrincipalName: ldap/2bea3ff3-b80d-42a2-8a63-39ee389db252._msdcs.PUPPY.H
+ TB
+servicePrincipalName: ldap/DC.PUPPY.HTB/PUPPY
+servicePrincipalName: ldap/DC
+servicePrincipalName: ldap/DC.PUPPY.HTB
+servicePrincipalName: ldap/DC.PUPPY.HTB/PUPPY.HTB
+
+# Domain Computers, Users, PUPPY.HTB
+dn: CN=Domain Computers,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Domain Computers
+
+# Domain Controllers, Users, PUPPY.HTB
+dn: CN=Domain Controllers,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Domain Controllers
+
+# Schema Admins, Users, PUPPY.HTB
+dn: CN=Schema Admins,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Schema Admins
+
+# Enterprise Admins, Users, PUPPY.HTB
+dn: CN=Enterprise Admins,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Enterprise Admins
+
+# Cert Publishers, Users, PUPPY.HTB
+dn: CN=Cert Publishers,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Cert Publishers
+
+# Domain Admins, Users, PUPPY.HTB
+dn: CN=Domain Admins,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Domain Admins
+
+# Domain Users, Users, PUPPY.HTB
+dn: CN=Domain Users,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Domain Users
+
+# Domain Guests, Users, PUPPY.HTB
+dn: CN=Domain Guests,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Domain Guests
+
+# Group Policy Creator Owners, Users, PUPPY.HTB
+dn: CN=Group Policy Creator Owners,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Group Policy Creator Owners
+
+# RAS and IAS Servers, Users, PUPPY.HTB
+dn: CN=RAS and IAS Servers,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: RAS and IAS Servers
+
+# Server Operators, Builtin, PUPPY.HTB
+dn: CN=Server Operators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Server Operators
+
+# Account Operators, Builtin, PUPPY.HTB
+dn: CN=Account Operators,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Account Operators
+
+# Pre-Windows 2000 Compatible Access, Builtin, PUPPY.HTB
+dn: CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Pre-Windows 2000 Compatible Access
+
+# Incoming Forest Trust Builders, Builtin, PUPPY.HTB
+dn: CN=Incoming Forest Trust Builders,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Incoming Forest Trust Builders
+
+# Windows Authorization Access Group, Builtin, PUPPY.HTB
+dn: CN=Windows Authorization Access Group,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Windows Authorization Access Group
+
+# Terminal Server License Servers, Builtin, PUPPY.HTB
+dn: CN=Terminal Server License Servers,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: Terminal Server License Servers
+
+# S-1-5-9, ForeignSecurityPrincipals, PUPPY.HTB
+dn: CN=S-1-5-9,CN=ForeignSecurityPrincipals,DC=PUPPY,DC=HTB
+
+# 6E157EDF-4E72-4052-A82A-EC3F91021A22, Operations, DomainUpdates, System, PUPP
+ Y.HTB
+dn: CN=6E157EDF-4E72-4052-A82A-EC3F91021A22,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=PUPPY,DC=HTB
+
+# Allowed RODC Password Replication Group, Users, PUPPY.HTB
+dn: CN=Allowed RODC Password Replication Group,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Allowed RODC Password Replication Group
+
+# Denied RODC Password Replication Group, Users, PUPPY.HTB
+dn: CN=Denied RODC Password Replication Group,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Denied RODC Password Replication Group
+
+# Read-only Domain Controllers, Users, PUPPY.HTB
+dn: CN=Read-only Domain Controllers,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Read-only Domain Controllers
+
+# Enterprise Read-only Domain Controllers, Users, PUPPY.HTB
+dn: CN=Enterprise Read-only Domain Controllers,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Enterprise Read-only Domain Controllers
+
+# Cloneable Domain Controllers, Users, PUPPY.HTB
+dn: CN=Cloneable Domain Controllers,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Cloneable Domain Controllers
+
+# Protected Users, Users, PUPPY.HTB
+dn: CN=Protected Users,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Protected Users
+
+# Key Admins, Users, PUPPY.HTB
+dn: CN=Key Admins,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Key Admins
+
+# Enterprise Key Admins, Users, PUPPY.HTB
+dn: CN=Enterprise Key Admins,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Enterprise Key Admins
+
+# RID Manager$, System, PUPPY.HTB
+dn: CN=RID Manager$,CN=System,DC=PUPPY,DC=HTB
+
+# RID Set, DC, Domain Controllers, PUPPY.HTB
+dn: CN=RID Set,CN=DC,OU=Domain Controllers,DC=PUPPY,DC=HTB
+
+# DnsAdmins, Users, PUPPY.HTB
+dn: CN=DnsAdmins,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: DnsAdmins
+
+# DnsUpdateProxy, Users, PUPPY.HTB
+dn: CN=DnsUpdateProxy,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: DnsUpdateProxy
+
+# MicrosoftDNS, System, PUPPY.HTB
+dn: CN=MicrosoftDNS,CN=System,DC=PUPPY,DC=HTB
+
+# RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY,DC=HTB
+
+# @, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=@,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY,DC=HTB
+
+# A.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=A.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# B.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=B.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# C.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=C.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# D.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=D.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# E.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=E.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# F.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=F.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# G.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=G.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# H.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=H.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# I.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=I.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# J.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=J.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# DFSR-GlobalSettings, System, PUPPY.HTB
+dn: CN=DFSR-GlobalSettings,CN=System,DC=PUPPY,DC=HTB
+
+# K.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=K.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# L.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=L.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# Domain System Volume, DFSR-GlobalSettings, System, PUPPY.HTB
+dn: CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=PUPPY,DC=HTB
+
+# M.ROOT-SERVERS.NET, RootDNSServers, MicrosoftDNS, System, PUPPY.HTB
+dn: DC=M.ROOT-SERVERS.NET,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# Content, Domain System Volume, DFSR-GlobalSettings, System, PUPPY.HTB
+dn: CN=Content,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=PUP
+ PY,DC=HTB
+
+# SYSVOL Share, Content, Domain System Volume, DFSR-GlobalSettings, System, PUP
+ PY.HTB
+dn: CN=SYSVOL Share,CN=Content,CN=Domain System Volume,CN=DFSR-GlobalSettings,
+ CN=System,DC=PUPPY,DC=HTB
+
+# Topology, Domain System Volume, DFSR-GlobalSettings, System, PUPPY.HTB
+dn: CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=PU
+ PPY,DC=HTB
+
+# DC, Topology, Domain System Volume, DFSR-GlobalSettings, System, PUPPY.HTB
+dn: CN=DC,CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# DFSR-LocalSettings, DC, Domain Controllers, PUPPY.HTB
+dn: CN=DFSR-LocalSettings,CN=DC,OU=Domain Controllers,DC=PUPPY,DC=HTB
+
+# Domain System Volume, DFSR-LocalSettings, DC, Domain Controllers, PUPPY.HTB
+dn: CN=Domain System Volume,CN=DFSR-LocalSettings,CN=DC,OU=Domain Controllers,
+ DC=PUPPY,DC=HTB
+
+# SYSVOL Subscription, Domain System Volume, DFSR-LocalSettings, DC, Domain Con
+ trollers, PUPPY.HTB
+dn: CN=SYSVOL Subscription,CN=Domain System Volume,CN=DFSR-LocalSettings,CN=DC
+ ,OU=Domain Controllers,DC=PUPPY,DC=HTB
+
+# MANPOWER, PUPPY.HTB
+dn: OU=MANPOWER,DC=PUPPY,DC=HTB
+
+# Levi B. James, MANPOWER, PUPPY.HTB
+dn: CN=Levi B. James,OU=MANPOWER,DC=PUPPY,DC=HTB
+sAMAccountName: levi.james
+
+# Anthony J. Edwards, PUPPY.HTB
+dn: CN=Anthony J. Edwards,DC=PUPPY,DC=HTB
+sAMAccountName: ant.edwards
+
+# Jamie S. Williams, Users, PUPPY.HTB
+dn: CN=Jamie S. Williams,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: jamie.williams
+
+# PUPPY ADMINS, PUPPY.HTB
+dn: OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+
+# Stephen W. Cooper, PUPPY ADMINS, PUPPY.HTB
+dn: CN=Stephen W. Cooper,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+sAMAccountName: steph.cooper
+
+# HR, PUPPY.HTB
+dn: CN=HR,DC=PUPPY,DC=HTB
+sAMAccountName: HR
+
+# SENIOR DEVS, Builtin, PUPPY.HTB
+dn: CN=SENIOR DEVS,CN=Builtin,DC=PUPPY,DC=HTB
+sAMAccountName: SENIOR DEVS
+
+# BCKUPKEY_a4331487-cde7-4d9b-b653-dc5b24e00a05 Secret, System, PUPPY.HTB
+dn: CN=BCKUPKEY_a4331487-cde7-4d9b-b653-dc5b24e00a05 Secret,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# BCKUPKEY_P Secret, System, PUPPY.HTB
+dn: CN=BCKUPKEY_P Secret,CN=System,DC=PUPPY,DC=HTB
+
+# BCKUPKEY_3ec516f3-8016-4236-bacf-b9a90ea50992 Secret, System, PUPPY.HTB
+dn: CN=BCKUPKEY_3ec516f3-8016-4236-bacf-b9a90ea50992 Secret,CN=System,DC=PUPPY
+ ,DC=HTB
+
+# BCKUPKEY_PREFERRED Secret, System, PUPPY.HTB
+dn: CN=BCKUPKEY_PREFERRED Secret,CN=System,DC=PUPPY,DC=HTB
+
+# Stephen A. Cooper_adm, PUPPY ADMINS, PUPPY.HTB
+dn: CN=Stephen A. Cooper_adm,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB
+sAMAccountName: steph.cooper_adm
+
+# Access-Denied Assistance Users, Users, PUPPY.HTB
+dn: CN=Access-Denied Assistance Users,CN=Users,DC=PUPPY,DC=HTB
+sAMAccountName: Access-Denied Assistance Users
+
+# DEVELOPERS, PUPPY.HTB
+dn: CN=DEVELOPERS,DC=PUPPY,DC=HTB
+sAMAccountName: DEVELOPERS
+
+# {841B611C-9F3B-4090-BA0C-2AE4D6C02AF8}, Policies, System, PUPPY.HTB
+dn: CN={841B611C-9F3B-4090-BA0C-2AE4D6C02AF8},CN=Policies,CN=System,DC=PUPPY,D
+ C=HTB
+
+# Machine, {841B611C-9F3B-4090-BA0C-2AE4D6C02AF8}, Policies, System, PUPPY.HTB
+dn: CN=Machine,CN={841B611C-9F3B-4090-BA0C-2AE4D6C02AF8},CN=Policies,CN=System
+ ,DC=PUPPY,DC=HTB
+
+# User, {841B611C-9F3B-4090-BA0C-2AE4D6C02AF8}, Policies, System, PUPPY.HTB
+dn: CN=User,CN={841B611C-9F3B-4090-BA0C-2AE4D6C02AF8},CN=Policies,CN=System,DC
+ =PUPPY,DC=HTB
+
+# search reference
+ref: ldap://ForestDnsZones.PUPPY.HTB/DC=ForestDnsZones,DC=PUPPY,DC=HTB
+
+# search reference
+ref: ldap://DomainDnsZones.PUPPY.HTB/DC=DomainDnsZones,DC=PUPPY,DC=HTB
+
+# search reference
+ref: ldap://PUPPY.HTB/CN=Configuration,DC=PUPPY,DC=HTB
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 261
+# numEntries: 257
+# numReferences: 3

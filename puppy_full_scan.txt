@@ -1,0 +1,30 @@
+# Nmap 7.95 scan initiated Sun May 18 20:28:41 2025 as: /usr/lib/nmap/nmap -sS -p- --min-rate 5000 -oN puppy_full_scan.txt 10.129.18.222
+Nmap scan report for 10.129.18.222
+Host is up (0.035s latency).
+Not shown: 65512 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+111/tcp   open  rpcbind
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+2049/tcp  open  nfs
+3260/tcp  open  iscsi
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+5985/tcp  open  wsman
+9389/tcp  open  adws
+49664/tcp open  unknown
+49667/tcp open  unknown
+49669/tcp open  unknown
+49670/tcp open  unknown
+49685/tcp open  unknown
+56737/tcp open  unknown
+60287/tcp open  unknown
+
+# Nmap done at Sun May 18 20:29:07 2025 -- 1 IP address (1 host up) scanned in 26.56 seconds

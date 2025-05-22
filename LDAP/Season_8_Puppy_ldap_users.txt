@@ -1,0 +1,54 @@
+# extended LDIF
+#
+# LDAPv3
+# base <CN=Users,DC=PUPPY,DC=HTB> with scope subtree
+# filter: (objectClass=user)
+# requesting: sAMAccountName displayName description memberOf userAccountControl 
+#
+
+# Administrator, Users, PUPPY.HTB
+dn: CN=Administrator,CN=Users,DC=PUPPY,DC=HTB
+description: Built-in account for administering the computer/domain
+memberOf: CN=Group Policy Creator Owners,CN=Users,DC=PUPPY,DC=HTB
+memberOf: CN=Domain Admins,CN=Users,DC=PUPPY,DC=HTB
+memberOf: CN=Enterprise Admins,CN=Users,DC=PUPPY,DC=HTB
+memberOf: CN=Schema Admins,CN=Users,DC=PUPPY,DC=HTB
+memberOf: CN=Administrators,CN=Builtin,DC=PUPPY,DC=HTB
+userAccountControl: 1114624
+sAMAccountName: Administrator
+
+# Guest, Users, PUPPY.HTB
+dn: CN=Guest,CN=Users,DC=PUPPY,DC=HTB
+description: Built-in account for guest access to the computer/domain
+memberOf: CN=Guests,CN=Builtin,DC=PUPPY,DC=HTB
+userAccountControl: 66082
+sAMAccountName: Guest
+
+# krbtgt, Users, PUPPY.HTB
+dn: CN=krbtgt,CN=Users,DC=PUPPY,DC=HTB
+description: Key Distribution Center Service Account
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=PUPPY,DC=HTB
+userAccountControl: 514
+sAMAccountName: krbtgt
+
+# Adam D. Silver, Users, PUPPY.HTB
+dn: CN=Adam D. Silver,CN=Users,DC=PUPPY,DC=HTB
+displayName: Adam D. Silver
+memberOf: CN=DEVELOPERS,DC=PUPPY,DC=HTB
+memberOf: CN=Remote Management Users,CN=Builtin,DC=PUPPY,DC=HTB
+userAccountControl: 66050
+sAMAccountName: adam.silver
+
+# Jamie S. Williams, Users, PUPPY.HTB
+dn: CN=Jamie S. Williams,CN=Users,DC=PUPPY,DC=HTB
+displayName: Jamie S. Williams
+memberOf: CN=DEVELOPERS,DC=PUPPY,DC=HTB
+userAccountControl: 66048
+sAMAccountName: jamie.williams
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 6
+# numEntries: 5

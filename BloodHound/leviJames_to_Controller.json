@@ -1,0 +1,3571 @@
+{
+  "nodes": [
+    {
+      "id": 18,
+      "type": "Container",
+      "label": "USERS@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "name": "USERS@PUPPY.HTB",
+        "description": "Default container for upgraded user accounts",
+        "whencreated": 1739965511,
+        "distinguishedname": "CN=USERS,DC=PUPPY,DC=HTB",
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "3F93AA72-387D-4B17-9523-1CA9CF985828"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 0,
+      "y": 203.8781163434903,
+      "objectid": "3F93AA72-387D-4B17-9523-1CA9CF985828",
+      "highvalue": false,
+      "size": 2,
+      "degree": 5,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.25,
+        "color": "#F79A78"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 19,
+      "type": "Group",
+      "label": "DOMAIN ADMINS@PUPPY.HTB",
+      "props": {
+        "highvalue": true,
+        "domain": "PUPPY.HTB",
+        "name": "DOMAIN ADMINS@PUPPY.HTB",
+        "description": "Designated administrators of the domain",
+        "whencreated": 1739965575,
+        "distinguishedname": "CN=DOMAIN ADMINS,CN=USERS,DC=PUPPY,DC=HTB",
+        "admincount": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-512",
+        "samaccountname": "Domain Admins"
+      },
+      "glyphs": {
+        "0": {
+          "position": "top-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "content": "",
+          "fillColor": "black",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        }
+      },
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 814.5454545454545,
+      "y": 179.50138504155126,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-512",
+      "highvalue": true,
+      "type_group": true,
+      "size": 5,
+      "degree": 10,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 20,
+      "type": "Group",
+      "label": "ADMINISTRATORS@PUPPY.HTB",
+      "props": {
+        "highvalue": true,
+        "domain": "PUPPY.HTB",
+        "name": "ADMINISTRATORS@PUPPY.HTB",
+        "description": "Administrators have complete and unrestricted access to the computer/domain",
+        "whencreated": 1739965512,
+        "distinguishedname": "CN=ADMINISTRATORS,CN=BUILTIN,DC=PUPPY,DC=HTB",
+        "admincount": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "PUPPY.HTB-S-1-5-32-544",
+        "samaccountname": "Administrators"
+      },
+      "glyphs": {
+        "0": {
+          "position": "top-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "content": "",
+          "fillColor": "black",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        }
+      },
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 698.1818181818181,
+      "y": 281.4404432132964,
+      "objectid": "PUPPY.HTB-S-1-5-32-544",
+      "highvalue": true,
+      "type_group": true,
+      "size": 5,
+      "degree": 10,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 21,
+      "type": "Group",
+      "label": "ENTERPRISE ADMINS@PUPPY.HTB",
+      "props": {
+        "highvalue": true,
+        "domain": "PUPPY.HTB",
+        "name": "ENTERPRISE ADMINS@PUPPY.HTB",
+        "description": "Designated administrators of the enterprise",
+        "whencreated": 1739965575,
+        "distinguishedname": "CN=ENTERPRISE ADMINS,CN=USERS,DC=PUPPY,DC=HTB",
+        "admincount": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-519",
+        "samaccountname": "Enterprise Admins"
+      },
+      "glyphs": {
+        "0": {
+          "position": "top-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "content": "",
+          "fillColor": "black",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        }
+      },
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 232.72727272727272,
+      "y": 237.1191135734072,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-519",
+      "highvalue": true,
+      "type_group": true,
+      "size": 5,
+      "degree": 10,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 26,
+      "type": "Group",
+      "label": "KEY ADMINS@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "name": "KEY ADMINS@PUPPY.HTB",
+        "description": "Members of this group can perform administrative actions on key objects within the domain.",
+        "whencreated": 1739965576,
+        "distinguishedname": "CN=KEY ADMINS,CN=USERS,DC=PUPPY,DC=HTB",
+        "admincount": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-526",
+        "samaccountname": "Key Admins"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1047.2727272727273,
+      "y": 631.578947368421,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-526",
+      "highvalue": false,
+      "type_group": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 28,
+      "type": "Group",
+      "label": "ENTERPRISE READ-ONLY DOMAIN CONTROLLERS@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "name": "ENTERPRISE READ-ONLY DOMAIN CONTROLLERS@PUPPY.HTB",
+        "description": "Members of this group are Read-Only Domain Controllers in the enterprise",
+        "distinguishedname": "CN=ENTERPRISE READ-ONLY DOMAIN CONTROLLERS,CN=USERS,DC=PUPPY,DC=HTB",
+        "whencreated": 1739965576,
+        "admincount": false,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-498",
+        "samaccountname": "Enterprise Read-only Domain Controllers"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1047.2727272727273,
+      "y": 0,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-498",
+      "highvalue": false,
+      "type_group": true,
+      "size": 1,
+      "degree": 2,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 29,
+      "type": "Group",
+      "label": "ENTERPRISE KEY ADMINS@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "name": "ENTERPRISE KEY ADMINS@PUPPY.HTB",
+        "description": "Members of this group can perform administrative actions on key objects within the forest.",
+        "whencreated": 1739965576,
+        "distinguishedname": "CN=ENTERPRISE KEY ADMINS,CN=USERS,DC=PUPPY,DC=HTB",
+        "admincount": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-527",
+        "samaccountname": "Enterprise Key Admins"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1047.2727272727273,
+      "y": 675.9002770083102,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-527",
+      "highvalue": false,
+      "type_group": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 32,
+      "type": "Group",
+      "label": "DOMAIN CONTROLLERS@PUPPY.HTB",
+      "props": {
+        "highvalue": true,
+        "domain": "PUPPY.HTB",
+        "name": "DOMAIN CONTROLLERS@PUPPY.HTB",
+        "description": "All domain controllers in the domain",
+        "whencreated": 1739965575,
+        "admincount": true,
+        "distinguishedname": "CN=DOMAIN CONTROLLERS,CN=USERS,DC=PUPPY,DC=HTB",
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-516",
+        "samaccountname": "Domain Controllers"
+      },
+      "glyphs": {
+        "0": {
+          "position": "top-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "content": "",
+          "fillColor": "black",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        }
+      },
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1280,
+      "y": 272.5761772853186,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-516",
+      "highvalue": true,
+      "type_group": true,
+      "size": 3,
+      "degree": 6,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 44,
+      "type": "User",
+      "label": "ADMINISTRATOR@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "sidhistory": {},
+        "passwordnotreqd": false,
+        "description": "Built-in account for administering the computer/domain",
+        "sensitive": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "unconstraineddelegation": false,
+        "enabled": true,
+        "pwdneverexpires": true,
+        "samaccountname": "Administrator",
+        "hasspn": false,
+        "owned": false,
+        "pwdlastset": 1739993608,
+        "domain": "PUPPY.HTB",
+        "lastlogon": 1747783862,
+        "trustedtoauth": false,
+        "name": "ADMINISTRATOR@PUPPY.HTB",
+        "serviceprincipalnames": {},
+        "admincount": true,
+        "whencreated": 1739965512,
+        "distinguishedname": "CN=ADMINISTRATOR,CN=USERS,DC=PUPPY,DC=HTB",
+        "lastlogontimestamp": 1747783853,
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-500",
+        "dontreqpreauth": false
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 116.36363636363636,
+      "y": 325.7617728531856,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-500",
+      "notowned": true,
+      "highvalue": false,
+      "type_user": true,
+      "size": 3,
+      "degree": 6,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E625"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 45,
+      "type": "User",
+      "label": "ADAM.SILVER@PUPPY.HTB",
+      "props": {
+        "sidhistory": {},
+        "unconstraineddelegation": false,
+        "enabled": false,
+        "pwdneverexpires": true,
+        "hasspn": false,
+        "homedirectory": "C:\\Users\\adam.silver",
+        "trustedtoauth": false,
+        "serviceprincipalnames": {},
+        "admincount": true,
+        "whencreated": 1739967383,
+        "lastlogontimestamp": 1741884026,
+        "highvalue": false,
+        "passwordnotreqd": false,
+        "sensitive": false,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "samaccountname": "adam.silver",
+        "owned": false,
+        "pwdlastset": 1747786769,
+        "displayname": "Adam D. Silver",
+        "domain": "PUPPY.HTB",
+        "lastlogon": 1741910626,
+        "name": "ADAM.SILVER@PUPPY.HTB",
+        "distinguishedname": "CN=ADAM D. SILVER,CN=USERS,DC=PUPPY,DC=HTB",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1105",
+        "dontreqpreauth": false
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1047.2727272727273,
+      "y": 755.6786703601108,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1105",
+      "notowned": true,
+      "highvalue": false,
+      "type_user": true,
+      "size": 1,
+      "degree": 2,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E625"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 47,
+      "type": "User",
+      "label": "STEPH.COOPER_ADM@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "sidhistory": {},
+        "passwordnotreqd": false,
+        "sensitive": false,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "unconstraineddelegation": false,
+        "enabled": true,
+        "pwdneverexpires": true,
+        "samaccountname": "steph.cooper_adm",
+        "hasspn": false,
+        "owned": false,
+        "displayname": "Stephen A. Cooper",
+        "pwdlastset": 1741449040,
+        "domain": "PUPPY.HTB",
+        "lastlogon": 0,
+        "trustedtoauth": false,
+        "name": "STEPH.COOPER_ADM@PUPPY.HTB",
+        "serviceprincipalnames": {},
+        "admincount": true,
+        "whencreated": 1741449040,
+        "distinguishedname": "CN=STEPHEN A. COOPER_ADM,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB",
+        "lastlogontimestamp": 1742535223,
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1111",
+        "dontreqpreauth": false
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 581.8181818181819,
+      "y": 387.8116343490305,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1111",
+      "notowned": true,
+      "highvalue": false,
+      "type_user": true,
+      "size": 2,
+      "degree": 4,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E625"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 48,
+      "type": "User",
+      "label": "STEPH.COOPER@PUPPY.HTB",
+      "props": {
+        "sidhistory": {},
+        "unconstraineddelegation": false,
+        "enabled": true,
+        "pwdneverexpires": true,
+        "hasspn": false,
+        "homedirectory": "C:\\Users\\Steph.cooper",
+        "trustedtoauth": false,
+        "serviceprincipalnames": {},
+        "admincount": false,
+        "whencreated": 1739967660,
+        "lastlogontimestamp": 1741126685,
+        "highvalue": false,
+        "passwordnotreqd": false,
+        "sensitive": false,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "samaccountname": "steph.cooper",
+        "owned": false,
+        "displayname": "Stephen W. Cooper",
+        "pwdlastset": 1739967660,
+        "domain": "PUPPY.HTB",
+        "lastlogon": 1741448435,
+        "name": "STEPH.COOPER@PUPPY.HTB",
+        "distinguishedname": "CN=STEPHEN W. COOPER,OU=PUPPY ADMINS,DC=PUPPY,DC=HTB",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1107",
+        "dontreqpreauth": false
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1047.2727272727273,
+      "y": 800,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1107",
+      "notowned": true,
+      "highvalue": false,
+      "type_user": true,
+      "size": 1,
+      "degree": 2,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E625"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 49,
+      "type": "User",
+      "label": "ANT.EDWARDS@PUPPY.HTB",
+      "props": {
+        "sidhistory": {},
+        "unconstraineddelegation": false,
+        "enabled": true,
+        "pwdneverexpires": true,
+        "hasspn": false,
+        "homedirectory": "C:\\Users\\ant.edwards",
+        "trustedtoauth": false,
+        "serviceprincipalnames": {},
+        "admincount": false,
+        "whencreated": 1739967194,
+        "lastlogontimestamp": 1742535196,
+        "highvalue": false,
+        "passwordnotreqd": false,
+        "sensitive": false,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "samaccountname": "ant.edwards",
+        "owned": false,
+        "displayname": "Anthony J. Edwards",
+        "pwdlastset": 1739967194,
+        "domain": "PUPPY.HTB",
+        "lastlogon": 1741798395,
+        "name": "ANT.EDWARDS@PUPPY.HTB",
+        "distinguishedname": "CN=ANTHONY J. EDWARDS,DC=PUPPY,DC=HTB",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1104",
+        "dontreqpreauth": false
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 814.5454545454545,
+      "y": 755.6786703601108,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1104",
+      "notowned": true,
+      "highvalue": false,
+      "type_user": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E625"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 51,
+      "type": "Group",
+      "label": "SENIOR DEVS@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "name": "SENIOR DEVS@PUPPY.HTB",
+        "distinguishedname": "CN=SENIOR DEVS,CN=BUILTIN,DC=PUPPY,DC=HTB",
+        "whencreated": 1739971383,
+        "admincount": false,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1109",
+        "samaccountname": "SENIOR DEVS"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 930.9090909090909,
+      "y": 755.6786703601108,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1109",
+      "highvalue": false,
+      "type_group": true,
+      "size": 1,
+      "degree": 2,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 52,
+      "type": "Group",
+      "label": "ACCOUNT OPERATORS@PUPPY.HTB",
+      "props": {
+        "highvalue": true,
+        "domain": "PUPPY.HTB",
+        "name": "ACCOUNT OPERATORS@PUPPY.HTB",
+        "description": "Members can administer domain user and group accounts",
+        "distinguishedname": "CN=ACCOUNT OPERATORS,CN=BUILTIN,DC=PUPPY,DC=HTB",
+        "whencreated": 1739965575,
+        "admincount": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "PUPPY.HTB-S-1-5-32-548",
+        "samaccountname": "Account Operators"
+      },
+      "glyphs": {
+        "0": {
+          "position": "top-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "content": "",
+          "fillColor": "black",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        }
+      },
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 930.9090909090909,
+      "y": 520.775623268698,
+      "objectid": "PUPPY.HTB-S-1-5-32-548",
+      "highvalue": true,
+      "type_group": true,
+      "size": 2,
+      "degree": 5,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 53,
+      "type": "Domain",
+      "label": "PUPPY.HTB",
+      "props": {
+        "highvalue": true,
+        "functionallevel": "2016",
+        "domain": "PUPPY.HTB",
+        "name": "PUPPY.HTB",
+        "description": "",
+        "whencreated": 1739965501,
+        "distinguishedname": "DC=PUPPY,DC=HTB",
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199"
+      },
+      "glyphs": {
+        "0": {
+          "position": "bottom-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "fillColor": "#990000",
+          "content": "",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        },
+        "1": {
+          "position": "top-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "content": "",
+          "fillColor": "black",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        }
+      },
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 349.09090909090907,
+      "y": 370.0831024930748,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199",
+      "highvalue": true,
+      "end": true,
+      "type_domain": true,
+      "size": 5,
+      "degree": 12,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#17E6B9"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 54,
+      "type": "Group",
+      "label": "ENTERPRISE DOMAIN CONTROLLERS@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "name": "ENTERPRISE DOMAIN CONTROLLERS@PUPPY.HTB",
+        "objectid": "PUPPY.HTB-S-1-5-9"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 232.72727272727272,
+      "y": 316.8975069252078,
+      "objectid": "PUPPY.HTB-S-1-5-9",
+      "highvalue": false,
+      "type_group": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 55,
+      "type": "OU",
+      "label": "PUPPY ADMINS@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "name": "PUPPY ADMINS@PUPPY.HTB",
+        "blocksinheritance": false,
+        "whencreated": 1739967592,
+        "distinguishedname": "OU=PUPPY ADMINS,DC=PUPPY,DC=HTB",
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "497630F9-2C84-4BDA-8FD4-4812BC896B99"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 465.45454545454544,
+      "y": 372.2991689750693,
+      "objectid": "497630F9-2C84-4BDA-8FD4-4812BC896B99",
+      "blocksinheritance": false,
+      "highvalue": false,
+      "type_ou": true,
+      "size": 1,
+      "degree": 2,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.25,
+        "color": "#FFAA00"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 57,
+      "type": "OU",
+      "label": "DOMAIN CONTROLLERS@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "name": "DOMAIN CONTROLLERS@PUPPY.HTB",
+        "blocksinheritance": false,
+        "description": "Default container for domain controllers",
+        "whencreated": 1739965511,
+        "distinguishedname": "OU=DOMAIN CONTROLLERS,DC=PUPPY,DC=HTB",
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "86030DE8-506E-4414-B2EB-C9B6A2E5D4D3"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1047.2727272727273,
+      "y": 587.2576177285318,
+      "objectid": "86030DE8-506E-4414-B2EB-C9B6A2E5D4D3",
+      "blocksinheritance": false,
+      "highvalue": false,
+      "type_ou": true,
+      "size": 1,
+      "degree": 3,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.25,
+        "color": "#FFAA00"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 60,
+      "type": "GPO",
+      "label": "DEFAULT DOMAIN POLICY@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "gpcpath": "\\\\PUPPY.HTB\\SYSVOL\\PUPPY.HTB\\POLICIES\\{31B2F340-016D-11D2-945F-00C04FB984F9}",
+        "name": "DEFAULT DOMAIN POLICY@PUPPY.HTB",
+        "description": "",
+        "whencreated": 1739965511,
+        "distinguishedname": "CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=POLICIES,CN=SYSTEM,DC=PUPPY,DC=HTB",
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "4B3A7177-7D7D-4FBB-AA65-84911F1E34EB"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 232.72727272727272,
+      "y": 370.0831024930748,
+      "objectid": "4B3A7177-7D7D-4FBB-AA65-84911F1E34EB",
+      "highvalue": false,
+      "type_gpo": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.25,
+        "color": "#7F72FD"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 61,
+      "type": "Computer",
+      "label": "DC.PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "sidhistory": {},
+        "haslaps": false,
+        "operatingsystem": "Windows Server 2022 Standard",
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "unconstraineddelegation": true,
+        "enabled": true,
+        "samaccountname": "DC$",
+        "owned": false,
+        "domain": "PUPPY.HTB",
+        "pwdlastset": 1746810525,
+        "lastlogon": 1747784139,
+        "name": "DC.PUPPY.HTB",
+        "trustedtoauth": false,
+        "whencreated": 1739965575,
+        "distinguishedname": "CN=DC,OU=DOMAIN CONTROLLERS,DC=PUPPY,DC=HTB",
+        "serviceprincipalnames": {
+          "0": "iSCSITarget/DC",
+          "1": "iSCSITarget/DC.PUPPY.HTB",
+          "2": "TERMSRV/DC",
+          "3": "TERMSRV/DC.PUPPY.HTB",
+          "4": "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/DC.PUPPY.HTB",
+          "5": "ldap/DC.PUPPY.HTB/ForestDnsZones.PUPPY.HTB",
+          "6": "ldap/DC.PUPPY.HTB/DomainDnsZones.PUPPY.HTB",
+          "7": "DNS/DC.PUPPY.HTB",
+          "8": "GC/DC.PUPPY.HTB/PUPPY.HTB",
+          "9": "RestrictedKrbHost/DC.PUPPY.HTB",
+          "10": "RestrictedKrbHost/DC",
+          "11": "RPC/2bea3ff3-b80d-42a2-8a63-39ee389db252._msdcs.PUPPY.HTB",
+          "12": "HOST/DC/PUPPY",
+          "13": "HOST/DC.PUPPY.HTB/PUPPY",
+          "14": "HOST/DC",
+          "15": "HOST/DC.PUPPY.HTB",
+          "16": "HOST/DC.PUPPY.HTB/PUPPY.HTB",
+          "17": "E3514235-4B06-11D1-AB04-00C04FC2DCD2/2bea3ff3-b80d-42a2-8a63-39ee389db252/PUPPY.HTB",
+          "18": "ldap/DC/PUPPY",
+          "19": "ldap/2bea3ff3-b80d-42a2-8a63-39ee389db252._msdcs.PUPPY.HTB",
+          "20": "ldap/DC.PUPPY.HTB/PUPPY",
+          "21": "ldap/DC",
+          "22": "ldap/DC.PUPPY.HTB",
+          "23": "ldap/DC.PUPPY.HTB/PUPPY.HTB"
+        },
+        "lastlogontimestamp": 1747783846,
+        "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1000"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 1163.6363636363637,
+      "y": 715.7894736842105,
+      "objectid": "S-1-5-21-1487982659-1829050783-2281216199-1000",
+      "haslaps": false,
+      "notowned": true,
+      "highvalue": false,
+      "type_computer": true,
+      "size": 4,
+      "degree": 9,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.2,
+        "color": "#E67873"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 62,
+      "type": "GPO",
+      "label": "DISABLEDEFENDER@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "gpcpath": "\\\\PUPPY.HTB\\SYSVOL\\PUPPY.HTB\\POLICIES\\{841B611C-9F3B-4090-BA0C-2AE4D6C02AF8}",
+        "name": "DISABLEDEFENDER@PUPPY.HTB",
+        "description": "",
+        "whencreated": 1747179776,
+        "distinguishedname": "CN={841B611C-9F3B-4090-BA0C-2AE4D6C02AF8},CN=POLICIES,CN=SYSTEM,DC=PUPPY,DC=HTB",
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "1AB0DAC6-8457-4AC9-9605-F37BE676271E"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 930.9090909090909,
+      "y": 565.0969529085872,
+      "objectid": "1AB0DAC6-8457-4AC9-9605-F37BE676271E",
+      "highvalue": false,
+      "type_gpo": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.25,
+        "color": "#7F72FD"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 63,
+      "type": "GPO",
+      "label": "DEFAULT DOMAIN CONTROLLERS POLICY@PUPPY.HTB",
+      "props": {
+        "highvalue": false,
+        "domain": "PUPPY.HTB",
+        "gpcpath": "\\\\PUPPY.HTB\\SYSVOL\\PUPPY.HTB\\POLICIES\\{6AC1786C-016F-11D2-945F-00C04FB984F9}",
+        "name": "DEFAULT DOMAIN CONTROLLERS POLICY@PUPPY.HTB",
+        "description": "",
+        "whencreated": 1739965511,
+        "distinguishedname": "CN={6AC1786C-016F-11D2-945F-00C04FB984F9},CN=POLICIES,CN=SYSTEM,DC=PUPPY,DC=HTB",
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "CFD90ACC-835A-4BB8-B3F4-60E41DFFBF6D"
+      },
+      "glyphs": {},
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 930.9090909090909,
+      "y": 631.578947368421,
+      "objectid": "CFD90ACC-835A-4BB8-B3F4-60E41DFFBF6D",
+      "highvalue": false,
+      "type_gpo": true,
+      "size": 1,
+      "degree": 1,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.25,
+        "color": "#7F72FD"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 68,
+      "type": "Group",
+      "label": "SERVER OPERATORS@PUPPY.HTB",
+      "props": {
+        "highvalue": true,
+        "domain": "PUPPY.HTB",
+        "name": "SERVER OPERATORS@PUPPY.HTB",
+        "description": "Members can administer domain servers",
+        "distinguishedname": "CN=SERVER OPERATORS,CN=BUILTIN,DC=PUPPY,DC=HTB",
+        "whencreated": 1739965575,
+        "admincount": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "PUPPY.HTB-S-1-5-32-549",
+        "samaccountname": "Server Operators"
+      },
+      "glyphs": {
+        "0": {
+          "position": "top-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "content": "",
+          "fillColor": "black",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        }
+      },
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 930.9090909090909,
+      "y": 84.21052631578948,
+      "objectid": "PUPPY.HTB-S-1-5-32-549",
+      "highvalue": true,
+      "type_group": true,
+      "size": 1,
+      "degree": 3,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 86,
+      "type": "Group",
+      "label": "BACKUP OPERATORS@PUPPY.HTB",
+      "props": {
+        "highvalue": true,
+        "domain": "PUPPY.HTB",
+        "name": "BACKUP OPERATORS@PUPPY.HTB",
+        "description": "Backup Operators can override security restrictions for the sole purpose of backing up or restoring files",
+        "distinguishedname": "CN=BACKUP OPERATORS,CN=BUILTIN,DC=PUPPY,DC=HTB",
+        "whencreated": 1739965512,
+        "admincount": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "PUPPY.HTB-S-1-5-32-551",
+        "samaccountname": "Backup Operators"
+      },
+      "glyphs": {
+        "0": {
+          "position": "top-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "content": "",
+          "fillColor": "black",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        }
+      },
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 930.9090909090909,
+      "y": 195.01385041551248,
+      "objectid": "PUPPY.HTB-S-1-5-32-551",
+      "highvalue": true,
+      "type_group": true,
+      "size": 1,
+      "degree": 3,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    },
+    {
+      "id": 87,
+      "type": "Group",
+      "label": "PRINT OPERATORS@PUPPY.HTB",
+      "props": {
+        "highvalue": true,
+        "domain": "PUPPY.HTB",
+        "name": "PRINT OPERATORS@PUPPY.HTB",
+        "description": "Members can administer printers installed on domain controllers",
+        "whencreated": 1739965512,
+        "distinguishedname": "CN=PRINT OPERATORS,CN=BUILTIN,DC=PUPPY,DC=HTB",
+        "admincount": true,
+        "domainsid": "S-1-5-21-1487982659-1829050783-2281216199",
+        "objectid": "PUPPY.HTB-S-1-5-32-550",
+        "samaccountname": "Print Operators"
+      },
+      "glyphs": {
+        "0": {
+          "position": "top-right",
+          "font": "\"Font Awesome 5 Free\"",
+          "content": "",
+          "fillColor": "black",
+          "fontScale": 1.5,
+          "fontStyle": "900"
+        }
+      },
+      "folded": {
+        "nodes": {},
+        "edges": {}
+      },
+      "x": 930.9090909090909,
+      "y": 449.8614958448753,
+      "objectid": "PUPPY.HTB-S-1-5-32-550",
+      "highvalue": true,
+      "type_group": true,
+      "size": 1,
+      "degree": 3,
+      "icon": {
+        "font": "'Font Awesome 5 Free'",
+        "content": "",
+        "scale": 1.5,
+        "color": "#DBE617"
+      },
+      "dagre_x": null,
+      "dagre_y": null
+    }
+  ],
+  "edges": [
+    {
+      "id": 111,
+      "etype": "Contains",
+      "source": 18,
+      "target": 21,
+      "label": "Contains",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 230
+        },
+        "1": {
+          "x": 25,
+          "y": 247.5
+        },
+        "2": {
+          "x": 50,
+          "y": 247.5
+        },
+        "3": {
+          "x": 75,
+          "y": 247.5
+        },
+        "4": {
+          "x": 100,
+          "y": 267.5
+        }
+      }
+    },
+    {
+      "id": 114,
+      "etype": "Contains",
+      "source": 18,
+      "target": 32,
+      "label": "Contains",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 230
+        },
+        "1": {
+          "x": 25,
+          "y": -37.5
+        },
+        "2": {
+          "x": 50,
+          "y": -37.5
+        },
+        "3": {
+          "x": 75,
+          "y": -37.5
+        },
+        "4": {
+          "x": 100,
+          "y": -37.5
+        },
+        "5": {
+          "x": 125,
+          "y": -37.5
+        },
+        "6": {
+          "x": 150,
+          "y": -37.5
+        },
+        "7": {
+          "x": 175,
+          "y": -37.5
+        },
+        "8": {
+          "x": 200,
+          "y": -37.5
+        },
+        "9": {
+          "x": 225,
+          "y": -37.5
+        },
+        "10": {
+          "x": 250,
+          "y": -37.5
+        },
+        "11": {
+          "x": 275,
+          "y": -37.5
+        },
+        "12": {
+          "x": 300,
+          "y": -37.5
+        },
+        "13": {
+          "x": 325,
+          "y": -37.5
+        },
+        "14": {
+          "x": 350,
+          "y": -37.5
+        },
+        "15": {
+          "x": 375,
+          "y": -37.5
+        },
+        "16": {
+          "x": 400,
+          "y": -37.5
+        },
+        "17": {
+          "x": 425,
+          "y": -37.5
+        },
+        "18": {
+          "x": 450,
+          "y": -37.5
+        },
+        "19": {
+          "x": 475,
+          "y": -37.5
+        },
+        "20": {
+          "x": 500,
+          "y": -37.5
+        },
+        "21": {
+          "x": 525,
+          "y": -37.5
+        },
+        "22": {
+          "x": 550,
+          "y": 307.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 116,
+      "etype": "Contains",
+      "source": 18,
+      "target": 19,
+      "label": "Contains",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 230
+        },
+        "1": {
+          "x": 25,
+          "y": 157.5
+        },
+        "2": {
+          "x": 50,
+          "y": 157.5
+        },
+        "3": {
+          "x": 75,
+          "y": 157.5
+        },
+        "4": {
+          "x": 100,
+          "y": 157.5
+        },
+        "5": {
+          "x": 125,
+          "y": 157.5
+        },
+        "6": {
+          "x": 150,
+          "y": 157.5
+        },
+        "7": {
+          "x": 175,
+          "y": 157.5
+        },
+        "8": {
+          "x": 200,
+          "y": 157.5
+        },
+        "9": {
+          "x": 225,
+          "y": 157.5
+        },
+        "10": {
+          "x": 250,
+          "y": 157.5
+        },
+        "11": {
+          "x": 275,
+          "y": 157.5
+        },
+        "12": {
+          "x": 300,
+          "y": 157.5
+        },
+        "13": {
+          "x": 325,
+          "y": 157.5
+        },
+        "14": {
+          "x": 350,
+          "y": 202.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 127,
+      "etype": "Contains",
+      "source": 18,
+      "target": 44,
+      "label": "Contains",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 0,
+          "y": 230
+        },
+        "1": {
+          "x": 25,
+          "y": 367.5
+        },
+        "2": {
+          "x": 50,
+          "y": 367.5
+        }
+      }
+    },
+    {
+      "id": 215,
+      "etype": "GenericAll",
+      "source": 51,
+      "target": 45,
+      "label": "GenericAll",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 400,
+          "y": 852.5
+        },
+        "1": {
+          "x": 425,
+          "y": 852.5
+        },
+        "2": {
+          "x": 450,
+          "y": 852.5
+        }
+      }
+    },
+    {
+      "id": 220,
+      "etype": "GenericAll",
+      "source": 52,
+      "target": 48,
+      "label": "GenericAll",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 400,
+          "y": 587.5
+        },
+        "1": {
+          "x": 425,
+          "y": 902.5
+        },
+        "2": {
+          "x": 450,
+          "y": 902.5
+        }
+      }
+    },
+    {
+      "id": 242,
+      "etype": "GetChanges",
+      "source": 28,
+      "target": 53,
+      "label": "GetChanges",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 450,
+          "y": 0
+        },
+        "1": {
+          "x": 425,
+          "y": 10
+        },
+        "2": {
+          "x": 400,
+          "y": 10
+        },
+        "3": {
+          "x": 375,
+          "y": 10
+        },
+        "4": {
+          "x": 350,
+          "y": 10
+        },
+        "5": {
+          "x": 325,
+          "y": 10
+        },
+        "6": {
+          "x": 300,
+          "y": 10
+        },
+        "7": {
+          "x": 275,
+          "y": 10
+        },
+        "8": {
+          "x": 250,
+          "y": 10
+        },
+        "9": {
+          "x": 225,
+          "y": 10
+        },
+        "10": {
+          "x": 200,
+          "y": 10
+        },
+        "11": {
+          "x": 175,
+          "y": 10
+        },
+        "12": {
+          "x": 150,
+          "y": 417.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 245,
+      "etype": "GetChangesAll",
+      "source": 32,
+      "target": 53,
+      "label": "GetChangesAll",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 550,
+          "y": 307.5
+        },
+        "1": {
+          "x": 525,
+          "y": 957.5
+        },
+        "2": {
+          "x": 500,
+          "y": 957.5
+        },
+        "3": {
+          "x": 475,
+          "y": 957.5
+        },
+        "4": {
+          "x": 450,
+          "y": 957.5
+        },
+        "5": {
+          "x": 425,
+          "y": 957.5
+        },
+        "6": {
+          "x": 400,
+          "y": 957.5
+        },
+        "7": {
+          "x": 375,
+          "y": 957.5
+        },
+        "8": {
+          "x": 350,
+          "y": 957.5
+        },
+        "9": {
+          "x": 325,
+          "y": 957.5
+        },
+        "10": {
+          "x": 300,
+          "y": 957.5
+        },
+        "11": {
+          "x": 275,
+          "y": 957.5
+        },
+        "12": {
+          "x": 250,
+          "y": 957.5
+        },
+        "13": {
+          "x": 225,
+          "y": 957.5
+        },
+        "14": {
+          "x": 200,
+          "y": 957.5
+        },
+        "15": {
+          "x": 175,
+          "y": 957.5
+        },
+        "16": {
+          "x": 150,
+          "y": 417.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 248,
+      "etype": "GetChangesInFilteredSet",
+      "source": 54,
+      "target": 53,
+      "label": "GetChangesInFilteredSet",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 357.5
+        },
+        "1": {
+          "x": 125,
+          "y": 357.5
+        },
+        "2": {
+          "x": 150,
+          "y": 417.5
+        }
+      }
+    },
+    {
+      "id": 249,
+      "etype": "WriteOwner",
+      "source": 19,
+      "target": 53,
+      "label": "WriteOwner",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 350,
+          "y": 202.5
+        },
+        "1": {
+          "x": 325,
+          "y": 237.5
+        },
+        "2": {
+          "x": 300,
+          "y": 237.5
+        },
+        "3": {
+          "x": 275,
+          "y": 237.5
+        },
+        "4": {
+          "x": 250,
+          "y": 237.5
+        },
+        "5": {
+          "x": 225,
+          "y": 237.5
+        },
+        "6": {
+          "x": 200,
+          "y": 237.5
+        },
+        "7": {
+          "x": 175,
+          "y": 237.5
+        },
+        "8": {
+          "x": 150,
+          "y": 417.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 255,
+      "etype": "GenericAll",
+      "source": 21,
+      "target": 53,
+      "label": "GenericAll",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 267.5
+        },
+        "1": {
+          "x": 125,
+          "y": 382.5
+        },
+        "2": {
+          "x": 150,
+          "y": 417.5
+        }
+      }
+    },
+    {
+      "id": 256,
+      "etype": "Contains",
+      "source": 53,
+      "target": 18,
+      "label": "Contains",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 150,
+          "y": 417.5
+        },
+        "1": {
+          "x": 125,
+          "y": 487.5
+        },
+        "2": {
+          "x": 100,
+          "y": 487.5
+        },
+        "3": {
+          "x": 75,
+          "y": 487.5
+        },
+        "4": {
+          "x": 50,
+          "y": 487.5
+        },
+        "5": {
+          "x": 25,
+          "y": 487.5
+        },
+        "6": {
+          "x": 0,
+          "y": 230
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 260,
+      "etype": "Contains",
+      "source": 53,
+      "target": 55,
+      "label": "Contains",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 150,
+          "y": 417.5
+        },
+        "1": {
+          "x": 175,
+          "y": 420
+        },
+        "2": {
+          "x": 200,
+          "y": 420
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 266,
+      "etype": "GPLink",
+      "source": 60,
+      "target": 53,
+      "label": "GPLink",
+      "enforced": false,
+      "size": 1,
+      "type": "dashed",
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 417.5
+        },
+        "1": {
+          "x": 125,
+          "y": 417.5
+        },
+        "2": {
+          "x": 150,
+          "y": 417.5
+        }
+      }
+    },
+    {
+      "id": 288,
+      "etype": "Contains",
+      "source": 55,
+      "target": 47,
+      "label": "Contains",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 200,
+          "y": 420
+        },
+        "1": {
+          "x": 225,
+          "y": 420
+        },
+        "2": {
+          "x": 250,
+          "y": 437.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 290,
+      "etype": "Contains",
+      "source": 57,
+      "target": 61,
+      "label": "Contains",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 450,
+          "y": 662.5
+        },
+        "1": {
+          "x": 475,
+          "y": 662.5
+        },
+        "2": {
+          "x": 500,
+          "y": 807.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 291,
+      "etype": "GPLink",
+      "source": 62,
+      "target": 57,
+      "label": "GPLink",
+      "enforced": false,
+      "size": 1,
+      "type": "dashed",
+      "points": {
+        "0": {
+          "x": 400,
+          "y": 637.5
+        },
+        "1": {
+          "x": 425,
+          "y": 637.5
+        },
+        "2": {
+          "x": 450,
+          "y": 662.5
+        }
+      }
+    },
+    {
+      "id": 292,
+      "etype": "GPLink",
+      "source": 63,
+      "target": 57,
+      "label": "GPLink",
+      "enforced": false,
+      "size": 1,
+      "type": "dashed",
+      "points": {
+        "0": {
+          "x": 400,
+          "y": 712.5
+        },
+        "1": {
+          "x": 425,
+          "y": 712.5
+        },
+        "2": {
+          "x": 450,
+          "y": 662.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 329,
+      "etype": "Owns",
+      "source": 19,
+      "target": 52,
+      "label": "Owns",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 350,
+          "y": 202.5
+        },
+        "1": {
+          "x": 375,
+          "y": 567.5
+        },
+        "2": {
+          "x": 400,
+          "y": 587.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 336,
+      "etype": "Owns",
+      "source": 19,
+      "target": 21,
+      "label": "Owns",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 350,
+          "y": 202.5
+        },
+        "1": {
+          "x": 325,
+          "y": 257.5
+        },
+        "2": {
+          "x": 300,
+          "y": 257.5
+        },
+        "3": {
+          "x": 275,
+          "y": 257.5
+        },
+        "4": {
+          "x": 250,
+          "y": 257.5
+        },
+        "5": {
+          "x": 225,
+          "y": 257.5
+        },
+        "6": {
+          "x": 200,
+          "y": 257.5
+        },
+        "7": {
+          "x": 175,
+          "y": 257.5
+        },
+        "8": {
+          "x": 150,
+          "y": 257.5
+        },
+        "9": {
+          "x": 125,
+          "y": 257.5
+        },
+        "10": {
+          "x": 100,
+          "y": 267.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 361,
+      "etype": "Owns",
+      "source": 19,
+      "target": 20,
+      "label": "Owns",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 350,
+          "y": 202.5
+        },
+        "1": {
+          "x": 325,
+          "y": 292.5
+        },
+        "2": {
+          "x": 300,
+          "y": 317.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 463,
+      "etype": "GenericAll",
+      "source": 52,
+      "target": 28,
+      "label": "GenericAll",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 400,
+          "y": 587.5
+        },
+        "1": {
+          "x": 425,
+          "y": -10
+        },
+        "2": {
+          "x": 450,
+          "y": 0
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 580,
+      "etype": "WriteOwner",
+      "source": 21,
+      "target": 52,
+      "label": "WriteOwner",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 267.5
+        },
+        "1": {
+          "x": 125,
+          "y": 587.5
+        },
+        "2": {
+          "x": 150,
+          "y": 587.5
+        },
+        "3": {
+          "x": 175,
+          "y": 587.5
+        },
+        "4": {
+          "x": 200,
+          "y": 587.5
+        },
+        "5": {
+          "x": 225,
+          "y": 587.5
+        },
+        "6": {
+          "x": 250,
+          "y": 587.5
+        },
+        "7": {
+          "x": 275,
+          "y": 587.5
+        },
+        "8": {
+          "x": 300,
+          "y": 587.5
+        },
+        "9": {
+          "x": 325,
+          "y": 587.5
+        },
+        "10": {
+          "x": 350,
+          "y": 587.5
+        },
+        "11": {
+          "x": 375,
+          "y": 587.5
+        },
+        "12": {
+          "x": 400,
+          "y": 587.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 581,
+      "etype": "WriteOwner",
+      "source": 20,
+      "target": 52,
+      "label": "WriteOwner",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 300,
+          "y": 317.5
+        },
+        "1": {
+          "x": 325,
+          "y": 680
+        },
+        "2": {
+          "x": 350,
+          "y": 680
+        },
+        "3": {
+          "x": 375,
+          "y": 680
+        },
+        "4": {
+          "x": 400,
+          "y": 587.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 588,
+      "etype": "WriteOwner",
+      "source": 21,
+      "target": 19,
+      "label": "WriteOwner",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 267.5
+        },
+        "1": {
+          "x": 125,
+          "y": 177.5
+        },
+        "2": {
+          "x": 150,
+          "y": 177.5
+        },
+        "3": {
+          "x": 175,
+          "y": 177.5
+        },
+        "4": {
+          "x": 200,
+          "y": 177.5
+        },
+        "5": {
+          "x": 225,
+          "y": 177.5
+        },
+        "6": {
+          "x": 250,
+          "y": 177.5
+        },
+        "7": {
+          "x": 275,
+          "y": 177.5
+        },
+        "8": {
+          "x": 300,
+          "y": 177.5
+        },
+        "9": {
+          "x": 325,
+          "y": 177.5
+        },
+        "10": {
+          "x": 350,
+          "y": 202.5
+        }
+      },
+      "type": "curvedArrow",
+      "cc": {
+        "y": 2
+      },
+      "hover": false
+    },
+    {
+      "id": 589,
+      "etype": "WriteOwner",
+      "source": 20,
+      "target": 19,
+      "label": "WriteOwner",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 300,
+          "y": 317.5
+        },
+        "1": {
+          "x": 325,
+          "y": 197.5
+        },
+        "2": {
+          "x": 350,
+          "y": 202.5
+        }
+      },
+      "type": "curvedArrow",
+      "cc": {
+        "y": 2
+      }
+    },
+    {
+      "id": 593,
+      "etype": "WriteOwner",
+      "source": 20,
+      "target": 21,
+      "label": "WriteOwner",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 300,
+          "y": 317.5
+        },
+        "1": {
+          "x": 275,
+          "y": 337.5
+        },
+        "2": {
+          "x": 250,
+          "y": 337.5
+        },
+        "3": {
+          "x": 225,
+          "y": 337.5
+        },
+        "4": {
+          "x": 200,
+          "y": 337.5
+        },
+        "5": {
+          "x": 175,
+          "y": 337.5
+        },
+        "6": {
+          "x": 150,
+          "y": 337.5
+        },
+        "7": {
+          "x": 125,
+          "y": 337.5
+        },
+        "8": {
+          "x": 100,
+          "y": 267.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 598,
+      "etype": "WriteOwner",
+      "source": 21,
+      "target": 32,
+      "label": "WriteOwner",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 267.5
+        },
+        "1": {
+          "x": 125,
+          "y": 37.5
+        },
+        "2": {
+          "x": 150,
+          "y": 37.5
+        },
+        "3": {
+          "x": 175,
+          "y": 37.5
+        },
+        "4": {
+          "x": 200,
+          "y": 37.5
+        },
+        "5": {
+          "x": 225,
+          "y": 37.5
+        },
+        "6": {
+          "x": 250,
+          "y": 37.5
+        },
+        "7": {
+          "x": 275,
+          "y": 37.5
+        },
+        "8": {
+          "x": 300,
+          "y": 37.5
+        },
+        "9": {
+          "x": 325,
+          "y": 37.5
+        },
+        "10": {
+          "x": 350,
+          "y": 37.5
+        },
+        "11": {
+          "x": 375,
+          "y": 37.5
+        },
+        "12": {
+          "x": 400,
+          "y": 37.5
+        },
+        "13": {
+          "x": 425,
+          "y": 37.5
+        },
+        "14": {
+          "x": 450,
+          "y": 37.5
+        },
+        "15": {
+          "x": 475,
+          "y": 37.5
+        },
+        "16": {
+          "x": 500,
+          "y": 37.5
+        },
+        "17": {
+          "x": 525,
+          "y": 37.5
+        },
+        "18": {
+          "x": 550,
+          "y": 307.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 621,
+      "etype": "WriteOwner",
+      "source": 21,
+      "target": 86,
+      "label": "WriteOwner",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 267.5
+        },
+        "1": {
+          "x": 125,
+          "y": 137.5
+        },
+        "2": {
+          "x": 150,
+          "y": 137.5
+        },
+        "3": {
+          "x": 175,
+          "y": 137.5
+        },
+        "4": {
+          "x": 200,
+          "y": 137.5
+        },
+        "5": {
+          "x": 225,
+          "y": 137.5
+        },
+        "6": {
+          "x": 250,
+          "y": 137.5
+        },
+        "7": {
+          "x": 275,
+          "y": 137.5
+        },
+        "8": {
+          "x": 300,
+          "y": 137.5
+        },
+        "9": {
+          "x": 325,
+          "y": 137.5
+        },
+        "10": {
+          "x": 350,
+          "y": 137.5
+        },
+        "11": {
+          "x": 375,
+          "y": 137.5
+        },
+        "12": {
+          "x": 400,
+          "y": 220
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 629,
+      "etype": "WriteOwner",
+      "source": 21,
+      "target": 20,
+      "label": "WriteOwner",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 267.5
+        },
+        "1": {
+          "x": 125,
+          "y": 277.5
+        },
+        "2": {
+          "x": 150,
+          "y": 277.5
+        },
+        "3": {
+          "x": 175,
+          "y": 277.5
+        },
+        "4": {
+          "x": 200,
+          "y": 277.5
+        },
+        "5": {
+          "x": 225,
+          "y": 277.5
+        },
+        "6": {
+          "x": 250,
+          "y": 277.5
+        },
+        "7": {
+          "x": 275,
+          "y": 277.5
+        },
+        "8": {
+          "x": 300,
+          "y": 317.5
+        }
+      },
+      "type": "curvedArrow",
+      "cc": {
+        "y": 2
+      },
+      "hover": false
+    },
+    {
+      "id": 659,
+      "etype": "WriteDacl",
+      "source": 19,
+      "target": 68,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 350,
+          "y": 202.5
+        },
+        "1": {
+          "x": 375,
+          "y": 77.5
+        },
+        "2": {
+          "x": 400,
+          "y": 95
+        }
+      }
+    },
+    {
+      "id": 660,
+      "etype": "WriteDacl",
+      "source": 21,
+      "target": 68,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 267.5
+        },
+        "1": {
+          "x": 125,
+          "y": 97.5
+        },
+        "2": {
+          "x": 150,
+          "y": 97.5
+        },
+        "3": {
+          "x": 175,
+          "y": 97.5
+        },
+        "4": {
+          "x": 200,
+          "y": 97.5
+        },
+        "5": {
+          "x": 225,
+          "y": 97.5
+        },
+        "6": {
+          "x": 250,
+          "y": 97.5
+        },
+        "7": {
+          "x": 275,
+          "y": 97.5
+        },
+        "8": {
+          "x": 300,
+          "y": 97.5
+        },
+        "9": {
+          "x": 325,
+          "y": 97.5
+        },
+        "10": {
+          "x": 350,
+          "y": 97.5
+        },
+        "11": {
+          "x": 375,
+          "y": 97.5
+        },
+        "12": {
+          "x": 400,
+          "y": 95
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 661,
+      "etype": "WriteDacl",
+      "source": 20,
+      "target": 68,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 300,
+          "y": 317.5
+        },
+        "1": {
+          "x": 325,
+          "y": 117.5
+        },
+        "2": {
+          "x": 350,
+          "y": 117.5
+        },
+        "3": {
+          "x": 375,
+          "y": 117.5
+        },
+        "4": {
+          "x": 400,
+          "y": 95
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 672,
+      "etype": "WriteDacl",
+      "source": 19,
+      "target": 32,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 350,
+          "y": 202.5
+        },
+        "1": {
+          "x": 375,
+          "y": 57.5
+        },
+        "2": {
+          "x": 400,
+          "y": 57.5
+        },
+        "3": {
+          "x": 425,
+          "y": 57.5
+        },
+        "4": {
+          "x": 450,
+          "y": 57.5
+        },
+        "5": {
+          "x": 475,
+          "y": 57.5
+        },
+        "6": {
+          "x": 500,
+          "y": 57.5
+        },
+        "7": {
+          "x": 525,
+          "y": 57.5
+        },
+        "8": {
+          "x": 550,
+          "y": 307.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 674,
+      "etype": "WriteDacl",
+      "source": 20,
+      "target": 32,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 300,
+          "y": 317.5
+        },
+        "1": {
+          "x": 325,
+          "y": 547.5
+        },
+        "2": {
+          "x": 350,
+          "y": 547.5
+        },
+        "3": {
+          "x": 375,
+          "y": 547.5
+        },
+        "4": {
+          "x": 400,
+          "y": 547.5
+        },
+        "5": {
+          "x": 425,
+          "y": 547.5
+        },
+        "6": {
+          "x": 450,
+          "y": 547.5
+        },
+        "7": {
+          "x": 475,
+          "y": 547.5
+        },
+        "8": {
+          "x": 500,
+          "y": 547.5
+        },
+        "9": {
+          "x": 525,
+          "y": 547.5
+        },
+        "10": {
+          "x": 550,
+          "y": 307.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 695,
+      "etype": "WriteDacl",
+      "source": 19,
+      "target": 86,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 350,
+          "y": 202.5
+        },
+        "1": {
+          "x": 375,
+          "y": 202.5
+        },
+        "2": {
+          "x": 400,
+          "y": 220
+        }
+      }
+    },
+    {
+      "id": 697,
+      "etype": "WriteDacl",
+      "source": 20,
+      "target": 86,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 300,
+          "y": 317.5
+        },
+        "1": {
+          "x": 325,
+          "y": 322.5
+        },
+        "2": {
+          "x": 350,
+          "y": 322.5
+        },
+        "3": {
+          "x": 375,
+          "y": 322.5
+        },
+        "4": {
+          "x": 400,
+          "y": 220
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 698,
+      "etype": "WriteDacl",
+      "source": 19,
+      "target": 87,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 350,
+          "y": 202.5
+        },
+        "1": {
+          "x": 375,
+          "y": 407.5
+        },
+        "2": {
+          "x": 400,
+          "y": 507.5
+        }
+      }
+    },
+    {
+      "id": 699,
+      "etype": "WriteDacl",
+      "source": 21,
+      "target": 87,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 100,
+          "y": 267.5
+        },
+        "1": {
+          "x": 125,
+          "y": 507.5
+        },
+        "2": {
+          "x": 150,
+          "y": 507.5
+        },
+        "3": {
+          "x": 175,
+          "y": 507.5
+        },
+        "4": {
+          "x": 200,
+          "y": 507.5
+        },
+        "5": {
+          "x": 225,
+          "y": 507.5
+        },
+        "6": {
+          "x": 250,
+          "y": 507.5
+        },
+        "7": {
+          "x": 275,
+          "y": 507.5
+        },
+        "8": {
+          "x": 300,
+          "y": 507.5
+        },
+        "9": {
+          "x": 325,
+          "y": 507.5
+        },
+        "10": {
+          "x": 350,
+          "y": 507.5
+        },
+        "11": {
+          "x": 375,
+          "y": 507.5
+        },
+        "12": {
+          "x": 400,
+          "y": 507.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 700,
+      "etype": "WriteDacl",
+      "source": 20,
+      "target": 87,
+      "label": "WriteDacl",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 300,
+          "y": 317.5
+        },
+        "1": {
+          "x": 325,
+          "y": 527.5
+        },
+        "2": {
+          "x": 350,
+          "y": 527.5
+        },
+        "3": {
+          "x": 375,
+          "y": 527.5
+        },
+        "4": {
+          "x": 400,
+          "y": 507.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 708,
+      "etype": "MemberOf",
+      "source": 49,
+      "target": 51,
+      "label": "MemberOf",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 350,
+          "y": 852.5
+        },
+        "1": {
+          "x": 375,
+          "y": 852.5
+        },
+        "2": {
+          "x": 400,
+          "y": 852.5
+        }
+      }
+    },
+    {
+      "id": 712,
+      "etype": "MemberOf",
+      "source": 44,
+      "target": 19,
+      "label": "MemberOf",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 50,
+          "y": 367.5
+        },
+        "1": {
+          "x": 75,
+          "y": 217.5
+        },
+        "2": {
+          "x": 100,
+          "y": 217.5
+        },
+        "3": {
+          "x": 125,
+          "y": 217.5
+        },
+        "4": {
+          "x": 150,
+          "y": 217.5
+        },
+        "5": {
+          "x": 175,
+          "y": 217.5
+        },
+        "6": {
+          "x": 200,
+          "y": 217.5
+        },
+        "7": {
+          "x": 225,
+          "y": 217.5
+        },
+        "8": {
+          "x": 250,
+          "y": 217.5
+        },
+        "9": {
+          "x": 275,
+          "y": 217.5
+        },
+        "10": {
+          "x": 300,
+          "y": 217.5
+        },
+        "11": {
+          "x": 325,
+          "y": 217.5
+        },
+        "12": {
+          "x": 350,
+          "y": 202.5
+        }
+      }
+    },
+    {
+      "id": 713,
+      "etype": "MemberOf",
+      "source": 44,
+      "target": 21,
+      "label": "MemberOf",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 50,
+          "y": 367.5
+        },
+        "1": {
+          "x": 75,
+          "y": 287.5
+        },
+        "2": {
+          "x": 100,
+          "y": 267.5
+        }
+      }
+    },
+    {
+      "id": 718,
+      "etype": "MemberOf",
+      "source": 47,
+      "target": 20,
+      "label": "MemberOf",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 250,
+          "y": 437.5
+        },
+        "1": {
+          "x": 275,
+          "y": 297.5
+        },
+        "2": {
+          "x": 300,
+          "y": 317.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 719,
+      "etype": "MemberOf",
+      "source": 44,
+      "target": 20,
+      "label": "MemberOf",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 50,
+          "y": 367.5
+        },
+        "1": {
+          "x": 75,
+          "y": 317.5
+        },
+        "2": {
+          "x": 100,
+          "y": 317.5
+        },
+        "3": {
+          "x": 125,
+          "y": 317.5
+        },
+        "4": {
+          "x": 150,
+          "y": 317.5
+        },
+        "5": {
+          "x": 175,
+          "y": 317.5
+        },
+        "6": {
+          "x": 200,
+          "y": 317.5
+        },
+        "7": {
+          "x": 225,
+          "y": 317.5
+        },
+        "8": {
+          "x": 250,
+          "y": 317.5
+        },
+        "9": {
+          "x": 275,
+          "y": 317.5
+        },
+        "10": {
+          "x": 300,
+          "y": 317.5
+        }
+      }
+    },
+    {
+      "id": 739,
+      "etype": "AddKeyCredentialLink",
+      "source": 26,
+      "target": 61,
+      "label": "AddKeyCredentialLink",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 450,
+          "y": 712.5
+        },
+        "1": {
+          "x": 475,
+          "y": 712.5
+        },
+        "2": {
+          "x": 500,
+          "y": 807.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 740,
+      "etype": "AddKeyCredentialLink",
+      "source": 29,
+      "target": 61,
+      "label": "AddKeyCredentialLink",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 450,
+          "y": 762.5
+        },
+        "1": {
+          "x": 475,
+          "y": 762.5
+        },
+        "2": {
+          "x": 500,
+          "y": 807.5
+        }
+      }
+    },
+    {
+      "id": 744,
+      "etype": "MemberOf",
+      "source": 61,
+      "target": 32,
+      "label": "MemberOf",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 500,
+          "y": 807.5
+        },
+        "1": {
+          "x": 525,
+          "y": 807.5
+        },
+        "2": {
+          "x": 550,
+          "y": 307.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 745,
+      "etype": "AdminTo",
+      "source": 44,
+      "target": 61,
+      "label": "AdminTo",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 50,
+          "y": 367.5
+        },
+        "1": {
+          "x": 75,
+          "y": 797.5
+        },
+        "2": {
+          "x": 100,
+          "y": 797.5
+        },
+        "3": {
+          "x": 125,
+          "y": 797.5
+        },
+        "4": {
+          "x": 150,
+          "y": 797.5
+        },
+        "5": {
+          "x": 175,
+          "y": 797.5
+        },
+        "6": {
+          "x": 200,
+          "y": 797.5
+        },
+        "7": {
+          "x": 225,
+          "y": 797.5
+        },
+        "8": {
+          "x": 250,
+          "y": 797.5
+        },
+        "9": {
+          "x": 275,
+          "y": 797.5
+        },
+        "10": {
+          "x": 300,
+          "y": 797.5
+        },
+        "11": {
+          "x": 325,
+          "y": 797.5
+        },
+        "12": {
+          "x": 350,
+          "y": 797.5
+        },
+        "13": {
+          "x": 375,
+          "y": 797.5
+        },
+        "14": {
+          "x": 400,
+          "y": 797.5
+        },
+        "15": {
+          "x": 425,
+          "y": 797.5
+        },
+        "16": {
+          "x": 450,
+          "y": 797.5
+        },
+        "17": {
+          "x": 475,
+          "y": 797.5
+        },
+        "18": {
+          "x": 500,
+          "y": 807.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 746,
+      "etype": "AdminTo",
+      "source": 47,
+      "target": 61,
+      "label": "AdminTo",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 250,
+          "y": 437.5
+        },
+        "1": {
+          "x": 275,
+          "y": 817.5
+        },
+        "2": {
+          "x": 300,
+          "y": 817.5
+        },
+        "3": {
+          "x": 325,
+          "y": 817.5
+        },
+        "4": {
+          "x": 350,
+          "y": 817.5
+        },
+        "5": {
+          "x": 375,
+          "y": 817.5
+        },
+        "6": {
+          "x": 400,
+          "y": 817.5
+        },
+        "7": {
+          "x": 425,
+          "y": 817.5
+        },
+        "8": {
+          "x": 450,
+          "y": 817.5
+        },
+        "9": {
+          "x": 475,
+          "y": 817.5
+        },
+        "10": {
+          "x": 500,
+          "y": 807.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 749,
+      "etype": "CanPSRemote",
+      "source": 45,
+      "target": 61,
+      "label": "CanPSRemote",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 450,
+          "y": 852.5
+        },
+        "1": {
+          "x": 475,
+          "y": 852.5
+        },
+        "2": {
+          "x": 500,
+          "y": 807.5
+        }
+      }
+    },
+    {
+      "id": 750,
+      "etype": "CanPSRemote",
+      "source": 48,
+      "target": 61,
+      "label": "CanPSRemote",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 450,
+          "y": 902.5
+        },
+        "1": {
+          "x": 475,
+          "y": 902.5
+        },
+        "2": {
+          "x": 500,
+          "y": 807.5
+        }
+      }
+    },
+    {
+      "id": 755,
+      "etype": "DCSync",
+      "source": 61,
+      "target": 53,
+      "label": "DCSync",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 500,
+          "y": 807.5
+        },
+        "1": {
+          "x": 475,
+          "y": 937.5
+        },
+        "2": {
+          "x": 450,
+          "y": 937.5
+        },
+        "3": {
+          "x": 425,
+          "y": 937.5
+        },
+        "4": {
+          "x": 400,
+          "y": 937.5
+        },
+        "5": {
+          "x": 375,
+          "y": 937.5
+        },
+        "6": {
+          "x": 350,
+          "y": 937.5
+        },
+        "7": {
+          "x": 325,
+          "y": 937.5
+        },
+        "8": {
+          "x": 300,
+          "y": 937.5
+        },
+        "9": {
+          "x": 275,
+          "y": 937.5
+        },
+        "10": {
+          "x": 250,
+          "y": 937.5
+        },
+        "11": {
+          "x": 225,
+          "y": 937.5
+        },
+        "12": {
+          "x": 200,
+          "y": 937.5
+        },
+        "13": {
+          "x": 175,
+          "y": 937.5
+        },
+        "14": {
+          "x": 150,
+          "y": 417.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 756,
+      "etype": "DCSync",
+      "source": 20,
+      "target": 53,
+      "label": "DCSync",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 300,
+          "y": 317.5
+        },
+        "1": {
+          "x": 275,
+          "y": 382.5
+        },
+        "2": {
+          "x": 250,
+          "y": 382.5
+        },
+        "3": {
+          "x": 225,
+          "y": 382.5
+        },
+        "4": {
+          "x": 200,
+          "y": 382.5
+        },
+        "5": {
+          "x": 175,
+          "y": 382.5
+        },
+        "6": {
+          "x": 150,
+          "y": 417.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 757,
+      "etype": "DCSync",
+      "source": 47,
+      "target": 53,
+      "label": "DCSync",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 250,
+          "y": 437.5
+        },
+        "1": {
+          "x": 225,
+          "y": 455
+        },
+        "2": {
+          "x": 200,
+          "y": 455
+        },
+        "3": {
+          "x": 175,
+          "y": 455
+        },
+        "4": {
+          "x": 150,
+          "y": 417.5
+        }
+      },
+      "hover": false
+    },
+    {
+      "id": 759,
+      "etype": "DCSync",
+      "source": 44,
+      "target": 53,
+      "label": "DCSync",
+      "size": 1,
+      "points": {
+        "0": {
+          "x": 50,
+          "y": 367.5
+        },
+        "1": {
+          "x": 75,
+          "y": 460
+        },
+        "2": {
+          "x": 100,
+          "y": 460
+        },
+        "3": {
+          "x": 125,
+          "y": 460
+        },
+        "4": {
+          "x": 150,
+          "y": 417.5
+        }
+      }
+    }
+  ],
+  "spotlight": {
+    "18": [
+      "USERS@PUPPY.HTB",
+      0,
+      "",
+      "Container",
+      ""
+    ],
+    "19": [
+      "DOMAIN ADMINS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "20": [
+      "ADMINISTRATORS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "21": [
+      "ENTERPRISE ADMINS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "26": [
+      "KEY ADMINS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "28": [
+      "ENTERPRISE READ-ONLY DOMAIN CONTROLLERS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "29": [
+      "ENTERPRISE KEY ADMINS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "32": [
+      "DOMAIN CONTROLLERS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "44": [
+      "ADMINISTRATOR@PUPPY.HTB",
+      0,
+      "",
+      "User",
+      ""
+    ],
+    "45": [
+      "ADAM.SILVER@PUPPY.HTB",
+      0,
+      "",
+      "User",
+      ""
+    ],
+    "47": [
+      "STEPH.COOPER_ADM@PUPPY.HTB",
+      0,
+      "",
+      "User",
+      ""
+    ],
+    "48": [
+      "STEPH.COOPER@PUPPY.HTB",
+      0,
+      "",
+      "User",
+      ""
+    ],
+    "49": [
+      "ANT.EDWARDS@PUPPY.HTB",
+      0,
+      "",
+      "User",
+      ""
+    ],
+    "51": [
+      "SENIOR DEVS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "52": [
+      "ACCOUNT OPERATORS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "53": [
+      "PUPPY.HTB",
+      0,
+      "",
+      "Domain",
+      ""
+    ],
+    "54": [
+      "ENTERPRISE DOMAIN CONTROLLERS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "55": [
+      "PUPPY ADMINS@PUPPY.HTB",
+      0,
+      "",
+      "OU",
+      ""
+    ],
+    "57": [
+      "DOMAIN CONTROLLERS@PUPPY.HTB",
+      0,
+      "",
+      "OU",
+      ""
+    ],
+    "60": [
+      "DEFAULT DOMAIN POLICY@PUPPY.HTB",
+      0,
+      "",
+      "GPO",
+      ""
+    ],
+    "61": [
+      "DC.PUPPY.HTB",
+      0,
+      "",
+      "Computer",
+      ""
+    ],
+    "62": [
+      "DISABLEDEFENDER@PUPPY.HTB",
+      0,
+      "",
+      "GPO",
+      ""
+    ],
+    "63": [
+      "DEFAULT DOMAIN CONTROLLERS POLICY@PUPPY.HTB",
+      0,
+      "",
+      "GPO",
+      ""
+    ],
+    "68": [
+      "SERVER OPERATORS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "86": [
+      "BACKUP OPERATORS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ],
+    "87": [
+      "PRINT OPERATORS@PUPPY.HTB",
+      0,
+      "",
+      "Group",
+      ""
+    ]
+  }
+}
